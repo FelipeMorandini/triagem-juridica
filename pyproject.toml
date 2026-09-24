@@ -1,0 +1,40 @@
+[project]
+name = "triagem-juridica"
+version = "0.1.0"
+description = "Sistema de prompts modular e testável para triagem de contatos em escritórios de advocacia"
+readme = "README.md"
+authors = [
+    { name = "Felipe Pires Morandini", email = "felipepiresmorandini@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.8.0",
+    "jinja2>=3.1.6",
+    "pydantic>=2.13.5",
+    "pyyaml>=6.0.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
+
+[project.scripts]
+triagem = "triagem_juridica.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["live: chama a API real da Anthropic (requer ANTHROPIC_API_KEY)"]
+addopts = "-m 'not live'"
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]

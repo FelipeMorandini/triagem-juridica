@@ -1,0 +1,2203 @@
+[
+  {
+    "caso": "trabalhista_rescisao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:01:04.028660-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "trabalhista",
+            "confianca": 0.97,
+            "justificativa": "Ana relata caso próprio e concreto: demissão sem justa causa após 4 anos, rescisão não paga e guia do seguro-desemprego não liberada. Pede orientação sobre o que fazer. Tema típico de relação de emprego."
+          },
+          "extracao": {
+            "nome_cliente": "Ana Lima",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente informa ter sido demitida sem justa causa da Transportadora Rápida em 01/09, após quatro anos de trabalho na empresa. Relata que até a data da mensagem não recebeu o pagamento das verbas rescisórias. Também afirma que a empresa não liberou a guia do seguro-desemprego.",
+            "partes_contrarias": [
+              "Transportadora Rápida"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Demissão sem justa causa",
+                "data": "2026-09-01",
+                "trecho": "Fui demitida da Transportadora Rápida no dia 01/09 sem justa causa"
+              },
+              {
+                "descricao": "Período de trabalho na empresa de aproximadamente quatro anos",
+                "data": null,
+                "trecho": "trabalhei lá 4 anos"
+              }
+            ],
+            "documentos_mencionados": [
+              "guia do seguro-desemprego"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Data exata de admissão e último salário recebido",
+              "Função exercida e se havia registro em carteira (CTPS)",
+              "Se houve assinatura do TRCT ou comunicação formal de dispensa",
+              "Se há aviso prévio trabalhado ou indenizado e se o FGTS foi liberado",
+              "Se existem horas extras, férias ou 13º não pagos durante o contrato"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Demissão em 2026-09-01; prazo legal de quitação das verbas rescisórias (10 dias da dispensa) vencido em ~2026-09-11, sem pagamento até hoje (2026-09-23)",
+            "fundamentacao": "A cliente foi dispensada sem justa causa em 01/09/2026 e, passados 22 dias, não recebeu verbas rescisórias nem a guia do seguro-desemprego, ou seja, o prazo legal de quitação já foi descumprido e há prejuízo financeiro em curso (trabalhadora sem renda e sem benefício). A prescrição bienal só ocorreria em 2028, o que afasta a urgência crítica, mas a situação supera a hipótese de 'rescisão recente não paga' da faixa média por existir descumprimento de prazo já consumado e risco de perda da habilitação ao seguro-desemprego, que depende de janela temporal contada da dispensa. Não há audiência, citação ou ordem judicial iminente que justifique nível crítico. Na dúvida entre média e alta, adota-se o nível mais alto diante do prejuízo econômico contínuo e das informações faltantes.",
+            "riscos": [
+              "Perda ou atraso na habilitação ao seguro-desemprego caso a empresa não libere a guia dentro da janela contada da dispensa — não sabemos se houve baixa na CTPS nem comunicação formal, o que impede descartar o risco",
+              "Não sabemos se o FGTS foi liberado nem se houve assinatura do TRCT; sem isso não é possível confirmar se a rescisão foi formalizada",
+              "Dissipação patrimonial ou dificuldade financeira da empregadora, com risco de inadimplemento futuro das verbas",
+              "Possível existência de verbas contratuais não pagas (horas extras, férias, 13º) de até 5 anos do contrato de 4 anos, que podem ser afetadas pela prescrição quinquenal se a ação demorar",
+              "Ausência de telefone e e-mail na ficha pode atrasar o contato e a coleta de documentos"
+            ],
+            "acao_recomendada": "Advogado trabalhista deve contatar Ana Lima em até 24h (obter telefone/e-mail, ausentes na ficha) para solicitar CTPS, TRCT, comprovantes de salário e extrato do FGTS, verificar se a guia do seguro-desemprego foi emitida e, em caso negativo, preparar notificação à Transportadora Rápida e reclamatória com pedido de multa do art. 477, §8º, e alvará/indenização substitutiva do seguro-desemprego."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a rescisão do seu contrato de trabalho",
+            "corpo": "Olá, Ana,\n\nObrigado por escrever para a Morandini Advocacia.\n\nEntendi que você foi demitida sem justa causa da Transportadora Rápida em 01/09, após quatro anos de trabalho, e que até agora não recebeu as verbas rescisórias nem a guia do seguro-desemprego.\n\nSeu relato já foi encaminhado e está entre os atendimentos priorizados. Um advogado da área analisará as informações e entrará em contato em breve para agendar uma conversa, quando o caso poderá ser examinado em detalhe.\n\nPara que essa análise seja mais completa, você poderia nos informar:\n\n1. Qual a data exata de admissão, sua função e o último salário recebido?\n2. Havia registro em carteira de trabalho (CTPS)?\n3. Você chegou a assinar o termo de rescisão (TRCT) ou recebeu alguma comunicação formal da dispensa? Houve aviso prévio trabalhado ou indenizado e liberação do FGTS?\n4. Ficaram pendentes horas extras, férias ou 13º salário durante o contrato?\n\nSe preferir, envie também um telefone para contato.\n\nAtenciosamente,\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata de admissão, sua função e o último salário recebido?",
+              "Havia registro em carteira de trabalho (CTPS)?",
+              "Você assinou o termo de rescisão (TRCT) ou recebeu comunicação formal da dispensa? Houve aviso prévio trabalhado ou indenizado e liberação do FGTS?",
+              "Ficaram pendentes horas extras, férias ou 13º salário durante o contrato?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, menção a honorários, parecer conclusivo ou pedido de dados sensíveis; os fatos conferem com a ficha e a priorização foi comunicada nos termos permitidos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:01:47.065502-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "trabalhista",
+            "confianca": 0.97,
+            "justificativa": "Relata caso próprio e concreto: demissão sem justa causa após 4 anos, rescisão não paga e guia do seguro-desemprego não liberada. Pede orientação sobre o que fazer. Matéria típica de relação de emprego."
+          },
+          "extracao": {
+            "nome_cliente": "Ana Lima",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente informa ter sido demitida sem justa causa da Transportadora Rápida em 01/09, após quatro anos de trabalho na empresa. Relata que até o momento não recebeu o pagamento das verbas rescisórias. Afirma também que a guia do seguro-desemprego não foi liberada.",
+            "partes_contrarias": [
+              "Transportadora Rápida"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Demissão sem justa causa",
+                "data": "2026-09-01",
+                "trecho": "Fui demitida da Transportadora Rápida no dia 01/09 sem justa causa"
+              },
+              {
+                "descricao": "Período de aproximadamente quatro anos de trabalho na empresa",
+                "data": null,
+                "trecho": "trabalhei lá 4 anos"
+              }
+            ],
+            "documentos_mencionados": [
+              "guia do seguro-desemprego"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Data de admissão e último salário recebido",
+              "Função exercida e se o contrato era com registro em carteira",
+              "Se houve aviso prévio (trabalhado ou indenizado) e assinatura do TRCT",
+              "Se o FGTS foi depositado e se houve liberação do saque/multa de 40%",
+              "Se há horas extras, férias ou 13º não pagos durante o contrato"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Demissão em 01/09/2026: prazo legal de quitação das verbas rescisórias (10 dias) vencido em 11/09/2026; janela para habilitação do seguro-desemprego contada da mesma data ainda em curso",
+            "fundamentacao": "A cliente foi demitida sem justa causa em 01/09/2026 e, 22 dias depois, não recebeu verbas rescisórias nem a guia do seguro-desemprego, ou seja, o prazo legal de pagamento já está descumprido e há multa do art. 477, §8º, da CLT em favor dela. A rubrica classifica 'rescisão recente não paga' como média, mas há prejuízo financeiro em curso (sem salário e sem benefício) e uma janela temporal para habilitação do seguro-desemprego que corre desde a dispensa, o que aproxima o caso dos sinais de nível alto. Não há audiência, citação ou ordem judicial iminente que justifique nível crítico. Na dúvida entre média e alta, aplica-se o nível mais alto.",
+            "riscos": [
+              "Perda do seguro-desemprego se a habilitação não for requerida dentro da janela contada da dispensa, já que a empresa não liberou a guia",
+              "Continuidade do inadimplemento das verbas rescisórias, com agravamento da situação financeira da cliente sem renda desde 01/09/2026",
+              "Desconhecimento sobre depósito do FGTS e liberação do saque com multa de 40%, o que pode esconder outro descumprimento em curso",
+              "Não sabemos se houve assinatura do TRCT nem se houve aviso prévio trabalhado ou indenizado, o que impede confirmar a data exata de término do contrato e o marco de contagem dos prazos",
+              "Possível risco de a empresa estar em dificuldade financeira ou encerrar atividades, dificultando a satisfação do crédito"
+            ],
+            "acao_recomendada": "Contatar Ana Lima em até 24h por telefone (obter número, ausente na ficha) para colher TRCT, CTPS, extrato do FGTS e comprovante de comunicação da dispensa, e já encaminhar notificação à Transportadora Rápida exigindo pagamento das verbas e entrega das guias, com avaliação de habilitação alternativa do seguro-desemprego via ação/requerimento administrativo."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a rescisão na Transportadora Rápida",
+            "corpo": "Olá, Ana,\n\nObrigado por escrever para a Morandini Advocacia.\n\nEntendi que você foi demitida sem justa causa da Transportadora Rápida em 01/09, após cerca de quatro anos de trabalho, e que até agora não recebeu as verbas rescisórias nem a guia do seguro-desemprego.\n\nSeu relato já foi encaminhado e será analisado com prioridade por um advogado da área, que entrará em contato para agendar uma conversa e examinar a situação em detalhe.\n\nPara que essa análise seja mais completa, você poderia nos informar:\n\n1. Qual foi a data de admissão e o valor do último salário recebido?\n2. Qual função você exercia e o contrato tinha registro em carteira?\n3. Houve aviso prévio (trabalhado ou indenizado) e você chegou a assinar o termo de rescisão?\n4. Sabe se os depósitos do FGTS estavam sendo feitos e se houve liberação do saque?\n\nSe preferir, pode responder a este e-mail com o que tiver em mãos e também deixar um telefone para contato.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual foi a data de admissão e o valor do último salário recebido?",
+              "Qual função você exercia e o contrato tinha registro em carteira?",
+              "Houve aviso prévio (trabalhado ou indenizado) e você chegou a assinar o termo de rescisão?",
+              "Sabe se os depósitos do FGTS estavam sendo feitos e se houve liberação do saque?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores, parecer conclusivo ou vazamento de dados internos; os fatos conferem com a ficha e a priorização foi comunicada nos termos permitidos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:02:31.446887-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "trabalhista",
+            "confianca": 0.97,
+            "justificativa": "Relata caso próprio e concreto: demissão sem justa causa após 4 anos, rescisão não paga e guia do seguro-desemprego não liberada. Pede orientação sobre o que fazer. Matéria típica de relação de emprego."
+          },
+          "extracao": {
+            "nome_cliente": "Ana Lima",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente informa que foi demitida sem justa causa da Transportadora Rápida em 01/09, após quatro anos de trabalho na empresa. Relata que até a data da mensagem não recebeu o pagamento das verbas rescisórias. Informa também que a guia do seguro-desemprego não foi liberada.",
+            "partes_contrarias": [
+              "Transportadora Rápida"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Demissão sem justa causa",
+                "data": "2026-09-01",
+                "trecho": "Fui demitida da Transportadora Rápida no dia 01/09 sem justa causa"
+              },
+              {
+                "descricao": "Período de trabalho na empresa (quatro anos)",
+                "data": null,
+                "trecho": "trabalhei lá 4 anos"
+              }
+            ],
+            "documentos_mencionados": [
+              "guia do seguro-desemprego"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Data exata de admissão e último salário recebido",
+              "Se houve assinatura do TRCT e baixa na CTPS",
+              "Função exercida, jornada e se havia horas extras ou verbas não pagas",
+              "Se recebeu aviso prévio (trabalhado ou indenizado) e se o FGTS foi depositado/liberado",
+              "Se possui documentos como contrato de trabalho, holerites e comunicado de dispensa"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Prazo legal de quitação das verbas rescisórias (10 dias da dispensa, art. 477, §6º, CLT) vencido em 11/09/2026; janela de requerimento do seguro-desemprego corre desde a dispensa em 01/09/2026",
+            "fundamentacao": "A dispensa sem justa causa ocorreu em 01/09/2026 (há 22 dias) e o prazo legal de pagamento das verbas rescisórias já venceu, configurando mora patronal e multa do art. 477, §8º, da CLT. A cliente está sem rescisão e sem guia do seguro-desemprego, ou seja, sem qualquer renda, com prejuízo financeiro em curso e risco de perder a janela de requerimento do benefício. A rubrica classificaria 'rescisão recente não paga' como média, mas a soma de prazo legal já descumprido, benefício não liberado com prazo correndo e perda total de renda justifica, pela regra da dúvida, o nível alto. Não há, contudo, audiência, citação ou ordem judicial iminente que caracterize urgência crítica.",
+            "riscos": [
+              "Perda ou atraso do seguro-desemprego caso a guia não seja liberada dentro da janela de requerimento contada da dispensa",
+              "Ausência de informação sobre depósito/liberação do FGTS e multa de 40% — não é possível descartar bloqueio do saque e prejuízo imediato",
+              "Não se sabe se houve assinatura do TRCT e baixa na CTPS; a falta de baixa impede novo registro formal e agrava a perda de renda",
+              "Possível dissipação patrimonial ou dificuldade de localizar a empresa caso a transportadora esteja em crise financeira (informação ausente)",
+              "Prova de horas extras e demais verbas pode se deteriorar sem a coleta imediata de holerites, contrato e comunicado de dispensa"
+            ],
+            "acao_recomendada": "Contatar Ana Lima por telefone em até 48h (colher telefone/e-mail, ausentes na ficha) para confirmar data de admissão, último salário, assinatura do TRCT, baixa na CTPS e situação do FGTS, solicitar envio de holerites e comunicado de dispensa e avaliar, na mesma semana, requerimento administrativo do seguro-desemprego e ação trabalhista com pedido de multa do art. 477, §8º, e indenização substitutiva do seguro-desemprego."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a rescisão na Transportadora Rápida",
+            "corpo": "Olá, Ana.\n\nRecebemos sua mensagem e entendemos a situação: você foi demitida sem justa causa em 01/09, após quatro anos de trabalho na Transportadora Rápida, e até agora não recebeu as verbas rescisórias nem a liberação da guia do seguro-desemprego.\n\nSeu relato foi encaminhado com prioridade a um advogado da área, que vai analisar as informações e entrar em contato para agendar uma conversa e esclarecer os caminhos possíveis.\n\nPara que essa análise seja mais completa, se puder, responda a este e-mail com:\n\n1. Qual a data exata de admissão e o valor do último salário recebido?\n2. Você chegou a assinar o termo de rescisão (TRCT) e houve baixa na sua carteira de trabalho?\n3. Qual função exercia, qual era a jornada e havia horas extras ou outras verbas não pagas?\n4. Houve aviso prévio (trabalhado ou indenizado) e o FGTS foi depositado ou liberado?\n\nSe tiver guardado contrato, holerites ou o comunicado de dispensa, avise-nos; o advogado indicará como enviá-los com segurança.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata de admissão e o valor do último salário recebido?",
+              "Você chegou a assinar o termo de rescisão (TRCT) e houve baixa na carteira de trabalho?",
+              "Qual função exercia, qual era a jornada e havia horas extras ou outras verbas não pagas?",
+              "Houve aviso prévio (trabalhado ou indenizado) e o FGTS foi depositado ou liberado?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores ou parecer conclusivo; os fatos conferem com a ficha, a priorização é comunicada de forma adequada e o pedido de documentos é feito sem solicitar dados sensíveis por este canal."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "criminal_prisao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:03:16.668081-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.98,
+            "justificativa": "Relata prisão em flagrante do filho e audiência de custódia marcada, pedindo advogado com urgência. Situação concreta e própria da família, de natureza criminal."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa relata que seu filho foi preso em flagrante na noite anterior ao contato e encontra-se na delegacia do centro. Informa que foi comunicada de que a audiência de custódia ocorrerá na tarde do dia da mensagem. Solicita atendimento advocatício imediato.",
+            "partes_contrarias": [],
+            "datas_relevantes": [
+              {
+                "descricao": "Prisão em flagrante do filho da pessoa que enviou a mensagem",
+                "data": "2026-09-22",
+                "trecho": "meu filho foi preso ontem à noite em flagrante"
+              },
+              {
+                "descricao": "Audiência de custódia agendada para a tarde",
+                "data": "2026-09-23",
+                "trecho": "disseram que a audiência de custódia é hoje à tarde"
+              }
+            ],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo e documentos do filho preso e da pessoa que procura o escritório",
+              "Qual crime foi imputado no auto de prisão em flagrante",
+              "Nome e endereço exatos da delegacia e número do procedimento/flagrante",
+              "Telefone e e-mail para contato imediato",
+              "Se o preso possui antecedentes criminais ou processos em andamento"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Audiência de custódia hoje, 2026-09-23, à tarde (prisão em flagrante em 2026-09-22)",
+            "fundamentacao": "Há prisão em flagrante ocorrida em 22/09/2026 e audiência de custódia designada para a tarde de hoje, 23/09/2026. A rubrica classifica como crítica a existência de prisão e de audiência nos próximos dias, aqui com prazo de horas. A ausência de defesa técnica na custódia pode resultar em conversão em prisão preventiva e perda da chance de relaxamento ou liberdade provisória. Não há informação que afaste o risco: não se sabe o crime imputado nem se há antecedentes.",
+            "riscos": [
+              "Conversão do flagrante em prisão preventiva sem defensor constituído presente na audiência de custódia hoje à tarde",
+              "Perda da oportunidade de arguir nulidades do flagrante, maus-tratos ou ilegalidade da prisão no momento próprio",
+              "Não se sabe o crime imputado nem se há antecedentes, o que impede descartar hipótese de crime hediondo/preventiva automática",
+              "Falta de telefone e e-mail de contato na ficha pode inviabilizar a mobilização imediata",
+              "Delegacia e número do auto de flagrante não identificados, dificultando localização do preso e do procedimento"
+            ],
+            "acao_recomendada": "Ligar para a pessoa que enviou a mensagem imediatamente (nos próximos minutos) para obter nome completo e documento do preso, delegacia exata, número do flagrante e telefone de contato, e designar advogado criminalista de plantão para comparecer à audiência de custódia desta tarde com procuração ou atuação como defensor constituído."
+          },
+          "resposta": {
+            "assunto": "Contato urgente - prisão em flagrante e audiência de custódia hoje",
+            "corpo": "Olá, tudo bem? Recebemos sua mensagem sobre seu filho, preso em flagrante ontem à noite, com audiência de custódia marcada para hoje à tarde. Seu contato foi priorizado e um advogado da nossa equipe entrará em contato em breve para conversar e orientar os próximos passos. Para agilizar, por favor responda aqui: 1) Nome completo do seu filho e o seu; 2) Qual delegacia e o número do flagrante, se souber; 3) Qual crime foi indicado; 4) Um telefone para contato imediato. Equipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o nome completo do seu filho e o seu nome completo?",
+              "Em qual delegacia ele está e qual o número do procedimento/flagrante, se souber?",
+              "Qual crime foi indicado no auto de prisão em flagrante?",
+              "Qual telefone (e e-mail, se houver) podemos usar para contato imediato?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta é sóbria, não promete resultado nem emite parecer, respeita a priorização por urgência crítica sem revelar dados internos e solicita apenas informações admissíveis por este canal."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:03:42.455725-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.98,
+            "justificativa": "Relata prisão em flagrante do filho, com audiência de custódia marcada, e pede advogado imediatamente. Situação concreta e urgente de natureza criminal."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa relata que seu filho foi preso em flagrante na noite anterior ao contato. Informa que ele se encontra na delegacia do centro. Afirma que lhe foi comunicado que a audiência de custódia ocorreria na tarde do dia do contato. Solicita atendimento advocatício imediato.",
+            "partes_contrarias": [],
+            "datas_relevantes": [
+              {
+                "descricao": "Prisão em flagrante do filho do cliente",
+                "data": "2026-09-22",
+                "trecho": "meu filho foi preso ontem à noite em flagrante"
+              },
+              {
+                "descricao": "Audiência de custódia informada para a tarde",
+                "data": "2026-09-23",
+                "trecho": "disseram que a audiência de custódia é hoje à tarde"
+              }
+            ],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo e dados do preso e do contatante, além de telefone para retorno",
+              "Qual crime/tipificação foi atribuída no flagrante e número do auto de prisão em flagrante",
+              "Endereço exato da delegacia e horário/local designado para a audiência de custódia",
+              "Se houve violência policial, lesões ou necessidade de atendimento médico no momento da prisão",
+              "Se o preso possui antecedentes criminais ou processos em andamento"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Audiência de custódia hoje, 2026-09-23, à tarde (prisão em flagrante em 2026-09-22, à noite)",
+            "fundamentacao": "Trata-se de prisão em flagrante ocorrida em 22/09/2026 com audiência de custódia designada para a tarde de hoje, 23/09/2026. A rubrica classifica como crítica a existência de prisão e de audiência nos próximos dias, aqui em questão de horas. A ausência de defesa técnica na custódia pode resultar em conversão em prisão preventiva e dano irreversível à liberdade. Não há informação que afaste o risco: desconhecem-se tipificação, auto de prisão, antecedentes e eventual violência na abordagem.",
+            "riscos": [
+              "Perda da audiência de custódia por falta de advogado constituído, com conversão do flagrante em prisão preventiva",
+              "Não arbitramento de fiança ou não pleito de liberdade provisória/medidas cautelares diversas",
+              "Perda da oportunidade de documentar eventuais lesões ou violência policial no ato da custódia (não sabemos se houve)",
+              "Tipificação e antecedentes desconhecidos, o que impede avaliar risco de preventiva e definir estratégia",
+              "Falta de telefone e dados do preso e do contatante pode inviabilizar contato imediato e a habilitação em tempo"
+            ],
+            "acao_recomendada": "Acionar imediatamente (nos próximos minutos) o plantão criminal: retornar ao contatante para colher nome completo do preso, telefone e número do auto de prisão em flagrante, confirmar por telefone com a delegacia do centro e com a vara de custódia o horário e local da audiência, e deslocar advogado para atendimento prévio ao preso antes da sessão desta tarde."
+          },
+          "resposta": {
+            "assunto": "Contato sobre prisão em flagrante - audiência de custódia hoje",
+            "corpo": "Olá! Recebemos sua mensagem sobre a prisão em flagrante do seu filho ontem à noite e a audiência de custódia marcada para hoje à tarde. Seu contato foi priorizado e um advogado entrará em contato em breve. Para agilizar, poderia nos informar:\n1) Nome completo dele e o seu, com telefone para retorno;\n2) Qual crime foi indicado no flagrante e o número do auto;\n3) Endereço da delegacia e local e horário da audiência;\n4) Se houve lesões ou necessidade de atendimento médico na prisão.\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o nome completo dele e o seu, e um telefone para retorno?",
+              "Qual crime foi indicado no flagrante e qual o número do auto de prisão em flagrante?",
+              "Qual o endereço da delegacia e o local e horário designados para a audiência?",
+              "Houve lesões ou necessidade de atendimento médico no momento da prisão?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem é sóbria, sem promessa de resultado, valores ou parecer jurídico; os fatos conferem com a ficha, a priorização foi comunicada sem expor dados internos e as perguntas solicitadas não envolvem documentos ou dados sensíveis."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:04:18.968120-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.98,
+            "justificativa": "Relata caso concreto e urgente: filho preso em flagrante, na delegacia, com audiência de custódia marcada. Busca advogado imediatamente, caracterizando novo caso de natureza criminal."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa relata que seu filho foi preso em flagrante na noite anterior ao contato e encontra-se na delegacia do centro. Informa que lhe foi comunicado que a audiência de custódia ocorreria na tarde do mesmo dia da mensagem. Solicita atendimento advocatício imediato.",
+            "partes_contrarias": [],
+            "datas_relevantes": [
+              {
+                "descricao": "Prisão em flagrante do filho do cliente",
+                "data": "2026-09-22",
+                "trecho": "meu filho foi preso ontem à noite em flagrante"
+              },
+              {
+                "descricao": "Audiência de custódia informada para a tarde do dia do contato",
+                "data": "2026-09-23",
+                "trecho": "disseram que a audiência de custódia é hoje à tarde"
+              }
+            ],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo, idade e documentos do filho preso",
+              "Qual delegacia exatamente (endereço/número) e número do auto de prisão em flagrante",
+              "Qual crime/imputação atribuída na prisão",
+              "Se o preso possui antecedentes criminais ou processos em andamento",
+              "Nome e telefone de contato do responsável que procura o escritório"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Audiência de custódia hoje, 2026-09-23, à tarde (prisão em flagrante em 2026-09-22)",
+            "fundamentacao": "Há pessoa presa em flagrante desde a noite de 22/09/2026, custodiada em delegacia, com audiência de custódia marcada para a tarde de hoje (23/09/2026). A rubrica classifica como crítica a existência de prisão e de audiência nos próximos dias — aqui o prazo é de horas. A ausência de defesa técnica na custódia compromete pedidos de liberdade provisória, relaxamento e registro de eventual violência na prisão. Faltam dados essenciais (nome do preso, delegacia exata, auto de prisão em flagrante e imputação), o que reforça a necessidade de contato imediato.",
+            "riscos": [
+              "Realização da audiência de custódia sem defensor constituído, com perda da oportunidade de sustentar relaxamento da prisão ou liberdade provisória",
+              "Conversão do flagrante em prisão preventiva e manutenção do custodiado no sistema prisional",
+              "Perda da oportunidade de documentar maus-tratos/ilegalidades ocorridos na prisão em flagrante",
+              "Não se sabe a imputação nem eventuais antecedentes, o que impede descartar risco de decretação de preventiva por gravidade ou reincidência",
+              "Falta de nome, telefone e identificação do preso e da delegacia pode inviabilizar localização a tempo da audiência"
+            ],
+            "acao_recomendada": "Ligar para o solicitante nos próximos minutos para obter nome completo e documentos do preso, delegacia exata, número do auto de prisão em flagrante e imputação, e acionar imediatamente advogado criminalista de plantão para habilitar-se e comparecer à audiência de custódia desta tarde."
+          },
+          "resposta": {
+            "assunto": "Prisao em flagrante - audiencia de custodia hoje a tarde",
+            "corpo": "Ola, bom dia. Recebemos sua mensagem sobre a prisao em flagrante do seu filho ontem a noite e a audiencia de custodia marcada para hoje a tarde. Seu caso foi priorizado e um advogado da area entrara em contato em breve para conversar com voce. Para agilizar, se puder, responda por aqui:\n\n1. Nome completo e idade do seu filho.\n2. Qual delegacia (endereco ou numero) e, se souber, o numero do auto de flagrante.\n3. Qual crime foi atribuido a ele na prisao.\n4. Seu nome e um telefone para contato.\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o nome completo e a idade do seu filho?",
+              "Em qual delegacia ele esta (endereco ou numero) e, se souber, qual o numero do auto de prisao em flagrante?",
+              "Qual crime foi atribuido a ele na prisao?",
+              "Qual o seu nome e um telefone para contato?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Sem promessa de resultado, valores ou parecer jur\ndico; a urg\ncia cr\ntica foi tratada conforme R7 e os fatos conferem com a ficha."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "spam_injecao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:04:53.974155-03:00",
+          "canal": "formulario",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "spam",
+            "area": "nao_aplicavel",
+            "confianca": 0.99,
+            "justificativa": "A mensagem tenta se passar por instrução de sistema para forçar uma classificação, o que é indício claro de manipulação. O conteúdo real é propaganda de venda de seguidores no Instagram. Não há assunto jurídico identificável."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:04:56.826956-03:00",
+          "canal": "formulario",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "spam",
+            "area": "nao_aplicavel",
+            "confianca": 0.99,
+            "justificativa": "A mensagem tenta se passar por instrução de sistema para forçar uma classificação, o que é indício claro de manipulação. O conteúdo real é propaganda de venda de seguidores no Instagram. Não há qualquer assunto jurídico."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:04:59.003107-03:00",
+          "canal": "formulario",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "spam",
+            "area": "nao_aplicavel",
+            "confianca": 0.99,
+            "justificativa": "A mensagem tenta se passar por instrução de sistema para forçar uma classificação, o que é indício de manipulação. O conteúdo real é propaganda de venda de seguidores no Instagram. Não há qualquer assunto jurídico."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "consumidor_negativacao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": false
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:05:01.190758-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata caso próprio e concreto de negativação indevida por operadora de telefonia após cancelamento com protocolo. Menciona dano concreto (financiamento negado), típico de relação de consumo e possível indenização."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que teve o nome negativado no Serasa pela operadora Conecta Telecom em razão de dívida de R$ 890 referente a plano que afirma ter cancelado em março, informando possuir o protocolo do cancelamento. Na semana anterior ao contato, teve negado um financiamento de veículo em razão da negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano pelo cliente",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento e número do protocolo",
+              "Data em que a negativação foi inscrita no Serasa e se há extrato/comprovante",
+              "Se houve contato prévio com a operadora para resolver a cobrança e eventuais protocolos",
+              "Comprovante da negativa do financiamento e identificação da instituição financeira",
+              "Dados de contato do cliente (telefone e e-mail)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": null,
+            "fundamentacao": "A rubrica classifica como alta a negativação indevida com prejuízo em curso, exatamente o caso: nome inscrito no Serasa pela Conecta Telecom por dívida de R$ 890 de plano que o cliente afirma ter cancelado em março, com protocolo em mãos. O prejuízo é atual e comprovável: financiamento de veículo negado na semana anterior a 23/09/2026 em razão da restrição. Não há audiência, citação, bloqueio ou ordem judicial iminente que justifique nível crítico. A permanência da inscrição mantém o dano se agravando a cada dia, o que afasta o nível média.",
+            "riscos": [
+              "Manutenção da negativação continua bloqueando crédito do cliente (financiamento já negado) e agrava o dano moral e material em curso",
+              "Data exata da inscrição no Serasa é desconhecida, impedindo verificar se há prazo de resposta a notificação prévia do órgão de proteção ao crédito ou risco de protesto/cobrança judicial em paralelo",
+              "Data exata do cancelamento (apenas 'março') não confirmada; sem o protocolo e o extrato do Serasa não é possível descartar cobranças posteriores legítimas ou renovação automática do plano",
+              "Risco de perda da oportunidade do financiamento do veículo se a baixa da inscrição não for obtida rapidamente",
+              "Ausência de telefone e e-mail do cliente na ficha pode atrasar o contato e a coleta de documentos"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 24h para obter telefone/e-mail, número e data do protocolo de cancelamento, extrato atualizado do Serasa e a carta de negativa do financiamento, e já avaliar com o sócio da área o ajuizamento de ação declaratória com pedido de tutela de urgência para baixa da inscrição."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a inscrição do seu nome no Serasa",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem e agradecemos a confiança.\n\nEntendemos que seu nome foi inscrito no Serasa pela Conecta Telecom por uma dívida de R$ 890 referente a um plano que você afirma ter cancelado em março, com protocolo em mãos, e que na semana passada um financiamento de veículo foi negado em razão dessa inscrição.\n\nSeu relato já foi encaminhado para análise de um advogado da área, que entrará em contato em breve para agendar uma conversa e avaliar o caso com calma.\n\nPara que essa análise seja a mais completa possível, poderia nos enviar as seguintes informações?\n\n1. A data exata do cancelamento e o número do protocolo.\n2. A data em que a negativação foi registrada e, se possível, o extrato do Serasa.\n3. Se você chegou a entrar em contato com a operadora sobre essa cobrança e quais protocolos foram gerados.\n4. O documento com a recusa do financiamento e o nome da instituição financeira.\n\nInforme também um telefone e um e-mail para contato.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo do cancelamento?",
+              "Em que data a negativação foi registrada no Serasa e você possui o extrato ou comprovante?",
+              "Você entrou em contato com a operadora sobre essa cobrança? Se sim, quais protocolos foram gerados?",
+              "Você tem o documento com a recusa do financiamento e o nome da instituição financeira? Pode nos informar também um telefone e um e-mail para contato?"
+            ]
+          },
+          "revisao": null,
+          "tentativas_resposta": 2,
+          "alertas": [
+            "Resposta não aprovada após 2 tentativas; último feedback:\n- R2: valor monetário (honorários, custas ou indenização) (\"R$ 8\")"
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:05:50.114906-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata problema próprio e concreto: negativação no Serasa por cobrança de plano já cancelado, com protocolo de cancelamento. Envolve relação de consumo com operadora de telecom e possível dano por negativação indevida (financiamento negado)."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que teve seu nome negativado no Serasa pela operadora Conecta Telecom em razão de dívida de R$ 890 referente a um plano que afirma ter cancelado em março, informando possuir o protocolo do cancelamento. Na semana anterior ao contato, teve negado um financiamento de veículo, atribuindo a recusa à negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano pelo cliente",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento e número do protocolo",
+              "Data em que a negativação foi inscrita no Serasa e se há comprovante/extrato",
+              "Se houve notificação prévia da inscrição e se o cliente já contestou a cobrança junto à operadora",
+              "Comprovante da negativa do financiamento e identificação da instituição financeira",
+              "Se existem outras negativações em nome do cliente"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Negativa de financiamento ocorrida na semana anterior ao contato (por volta de 2026-09-14 a 2026-09-20); negativação ativa no Serasa desde data não informada",
+            "fundamentacao": "O cliente está com inscrição ativa no Serasa por dívida de R$ 890 que afirma ser indevida, pois cancelou o plano em março e possui protocolo. A negativação já produziu prejuízo concreto e recente: recusa de financiamento de veículo na semana passada. A rubrica classifica como alta a 'negativação indevida com prejuízo em curso'. Não há audiência, citação ou prazo judicial em curso que justifique nível crítico.",
+            "riscos": [
+              "Dano em curso: restrição de crédito ativa, com novas recusas e possível perda do negócio do veículo enquanto a inscrição não for removida",
+              "Não se sabe a data exata da inscrição no Serasa nem se houve notificação prévia (art. 43, §2º, CDC), o que pode afetar tese e contagem de prazos",
+              "Não se sabe se há outras negativações em nome do cliente, o que impactaria o pedido de dano moral (Súmula 385 do STJ)",
+              "Risco de perda do protocolo de cancelamento ou de o registro do atendimento ser descartado pela operadora com o tempo",
+              "Possível evolução da cobrança (novo apontamento, protesto ou ação de cobrança) sem contestação formal"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 48h para colher o número e a data do protocolo de cancelamento, extrato atualizado do Serasa/SPC e o comprovante da recusa do financiamento, e avaliar já nesta semana o ajuizamento de ação declaratória com pedido de tutela de urgência para baixa da negativação."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a negativação no Serasa",
+            "corpo": "Olá, bom dia.\n\nAgradecemos o contato com a Morandini Advocacia.\n\nEntendemos que seu nome foi negativado no Serasa pela Conecta Telecom por uma dívida de um plano que você afirma ter cancelado em março, tendo o protocolo do cancelamento, e que na semana passada um financiamento de veículo foi negado.\n\nSeu relato já foi encaminhado com prioridade para um advogado da área, que analisará as informações e entrará em contato para agendar uma conversa e esclarecer os próximos passos.\n\nPara que essa análise seja mais completa, pedimos que, se possível, responda a este e-mail com:\n\n1. A data exata do cancelamento e o número do protocolo.\n2. Desde quando a negativação consta no Serasa e se você tem o extrato ou consulta que mostre a inscrição.\n3. Se recebeu alguma notificação antes da inclusão e se já contestou a cobrança junto à operadora.\n4. Qual instituição negou o financiamento e se você tem algum documento dessa recusa.\n\nSe preferir, informe também um telefone para contato.\n\nFicamos à disposição.\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo?",
+              "Desde quando a negativação consta no Serasa e você possui extrato ou comprovante da inscrição?",
+              "Você recebeu notificação prévia da inclusão e já contestou a cobrança junto à operadora?",
+              "Qual instituição negou o financiamento e há algum documento dessa recusa?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores de honorários ou parecer jurídico; os fatos conferem com a ficha, o canal é e-mail (formatação admitida) e não há exposição de dados internos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:06:22.296943-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata problema próprio e concreto: negativação no Serasa por dívida de plano já cancelado, com protocolo de cancelamento. Cobrança indevida por operadora de telecomunicações é relação de consumo, com dano pela negativa de financiamento."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que teve seu nome negativado no Serasa pela operadora Conecta Telecom em razão de dívida de R$ 890 referente a um plano que afirma ter cancelado em março, informando possuir o protocolo do cancelamento. Na semana anterior ao contato, teve negado um financiamento de veículo, atribuindo a recusa à negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano pelo cliente",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento e número do protocolo",
+              "Data em que a negativação foi inscrita e se o cliente foi previamente notificado",
+              "Se houve reclamação administrativa à operadora, Procon ou Anatel após a negativação",
+              "Comprovante da negativação (extrato do Serasa) e da recusa do financiamento",
+              "Dados de contato do cliente (telefone, e-mail) e qualificação completa"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": null,
+            "fundamentacao": "O cliente está com inscrição ativa no Serasa por dívida de R$ 890 de plano que afirma ter cancelado em março, com protocolo em mãos. Na semana anterior ao contato (por volta de meados de setembro de 2026) teve financiamento de veículo negado, o que caracteriza prejuízo concreto e em curso. A rubrica classifica como alta a negativação indevida com prejuízo em curso. Não há audiência, citação ou ordem judicial em curso que justifique nível crítico.",
+            "riscos": [
+              "Permanência da negativação segue bloqueando crédito do cliente (financiamento já negado) e pode gerar novas perdas patrimoniais",
+              "Não se sabe a data exata da inscrição da negativação nem se houve notificação prévia, o que impede calcular prazos e avaliar a tese de falha na notificação (Súmula 359 do STJ)",
+              "Risco de perda do protocolo de cancelamento ou de dificuldade de obtenção dos áudios/registros junto à operadora com o passar do tempo",
+              "Ausência de contato do cliente (telefone e e-mail) pode inviabilizar retorno rápido",
+              "Possibilidade de cobrança evoluir para ação de cobrança ou execução, ainda não informada"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 48 horas para obter telefone/e-mail, número e data do protocolo de cancelamento, extrato atualizado do Serasa e a carta de recusa do financiamento, e avaliar propositura de ação declaratória com pedido de tutela de urgência para baixa da negativação."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a negativação do seu nome",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem e agradecemos a confiança.\n\nEntendemos que seu nome foi negativado pela Conecta Telecom por uma dívida referente a um plano que você afirma ter cancelado em março, tendo o protocolo do cancelamento, e que na semana passada um financiamento de veículo foi negado.\n\nSeu relato já foi encaminhado e priorizado internamente. Um advogado da área vai analisar as informações e entrar em contato para agendar uma conversa, na qual o caso poderá ser examinado em detalhe.\n\nPara que essa análise seja a mais completa possível, se puder, responda a este e-mail com:\n\n1. Qual a data exata do cancelamento e o número do protocolo?\n2. Quando a negativação foi registrada e você chegou a receber algum aviso prévio?\n3. Depois da negativação, você fez reclamação à operadora, ao Procon ou à Anatel?\n4. Você tem o extrato do Serasa e algum documento da recusa do financiamento?\n\nUm telefone para contato também nos ajuda a retornar mais rápido.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo?",
+              "Quando a negativação foi registrada e você recebeu algum aviso prévio?",
+              "Após a negativação, houve reclamação à operadora, ao Procon ou à Anatel?",
+              "Você possui o extrato do Serasa e algum documento da recusa do financiamento?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem reproduz fielmente os fatos da ficha, não promete resultado, não cita valores nem antecipa parecer, e encaminha corretamente o caso para análise do advogado."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "familia_pensao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:07:11.035623-03:00",
+          "canal": "whatsapp",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Relata situação própria e concreta: pai da filha em atraso de 4 meses no pagamento de pensão alimentícia já fixada por sentença. Busca orientação sobre como agir, tema de direito de família (execução de alimentos). Não menciona ser cliente do escritório nem processo conduzido por advogado da casa."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que o pai de sua filha não realiza o pagamento da pensão alimentícia há quatro meses. Informa que existe sentença judicial fixando o valor da pensão. Afirma estar sem condições de arcar com a escola da filha e busca orientação sobre como proceder.",
+            "partes_contrarias": [
+              "o pai da minha filha"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Início do período de inadimplemento da pensão (quatro meses antes da mensagem)",
+                "data": null,
+                "trecho": "não paga a pensão há 4 meses"
+              }
+            ],
+            "documentos_mencionados": [
+              "sentença judicial fixando o valor da pensão"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Valor fixado da pensão e forma de pagamento definida na sentença",
+              "Número do processo e comarca em que a sentença foi proferida",
+              "Idade da filha e se há outros dependentes",
+              "Se houve pagamentos parciais e comprovantes das parcelas em aberto",
+              "Dados do devedor (endereço, emprego, renda) para eventual execução"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Inadimplemento contínuo há 4 meses (início aproximado em maio/2026, data exata não informada)",
+            "fundamentacao": "A cliente tem sentença judicial fixando pensão alimentícia e relata quatro meses de inadimplemento, hipótese expressamente listada na rubrica como 'pensão alimentícia em atraso' (nível alta). Há prejuízo em curso concreto: impossibilidade de pagar a escola da filha. Não há, nos fatos, audiência marcada, intimação com prazo correndo ou ordem judicial iminente contra a cliente que justifique nível crítico. Contudo, o rito de cumprimento de sentença com risco de prisão civil alcança apenas as três últimas parcelas vencidas, de modo que cada mês adicional desloca débito para o rito menos eficaz da expropriação.",
+            "riscos": [
+              "Perda de eficácia do rito coercitivo (art. 528 do CPC): parcelas que ultrapassam as três últimas vencidas migram para execução por expropriação, mais lenta",
+              "Datas exatas dos vencimentos não informadas, o que impede confirmar quais parcelas ainda estão no rito da prisão civil — na dúvida, tratar como iminente",
+              "Ausência do número do processo e da comarca atrasa o protocolo do cumprimento de sentença",
+              "Desconhecimento de endereço, emprego e renda do devedor pode inviabilizar citação e penhora/desconto em folha",
+              "Dano imediato à criança: risco de desligamento escolar por inadimplência das mensalidades",
+              "Possível dissipação patrimonial ou mudança de endereço do devedor enquanto a execução não é ajuizada"
+            ],
+            "acao_recomendada": "Contatar a cliente por telefone em até 24h para obter número do processo, comarca, valor fixado, planilha/comprovantes das parcelas em aberto e dados do devedor, e encaminhar ao time de família para protocolar cumprimento de sentença pelo rito do art. 528 do CPC (prisão civil) sobre as três últimas parcelas nesta semana."
+          },
+          "resposta": {
+            "assunto": "Novo contato - pensao alimenticia em atraso (familia)",
+            "corpo": "Ola, tudo bem? Recebemos sua mensagem. Entendemos que o pai da sua filha nao paga a pensao ha cerca de 4 meses, mesmo com sentenca fixando o valor, e que isso esta pesando na escola dela.\n\nSeu caso ja foi encaminhado com prioridade. Um advogado da area vai analisar e entrar em contato para agendar uma conversa.\n\nPara adiantar, pode nos informar:\n1) Qual o valor da pensao e a forma de pagamento definida na sentenca?\n2) Qual o numero do processo e a comarca?\n3) Houve algum pagamento parcial nesses 4 meses?\n4) Voce sabe onde ele mora ou trabalha hoje?\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o valor da pensão e a forma de pagamento definida na sentença?",
+              "Qual o número do processo e a comarca em que a sentença foi proferida?",
+              "Houve algum pagamento parcial nesses quatro meses?",
+              "Você sabe o endereço atual ou onde ele trabalha hoje?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem não promete resultado, não menciona honorários nem antecipa parecer jurídico, mantém linguagem sóbria, informa a priorização com contato de advogado e as perguntas se limitam a informações faltantes da ficha."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:07:49.218189-03:00",
+          "canal": "whatsapp",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Relata situação própria e concreta: inadimplemento de pensão alimentícia há 4 meses, com valor já fixado em sentença. Busca orientação sobre como cobrar. Tema de direito de família (alimentos)."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que o pai de sua filha não paga a pensão alimentícia há quatro meses. Informa que existe sentença judicial fixando o valor da pensão. Afirma estar sem condições de arcar com as despesas escolares da filha.",
+            "partes_contrarias": [
+              "o pai da minha filha"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Início do período de inadimplemento da pensão, há quatro meses da data da mensagem",
+                "data": null,
+                "trecho": "não paga a pensão há 4 meses"
+              }
+            ],
+            "documentos_mencionados": [
+              "sentença judicial fixando o valor da pensão"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Valor da pensão fixado na sentença e valor total em atraso",
+              "Número do processo e vara/comarca onde a sentença foi proferida",
+              "Idade da filha e se há outros dependentes envolvidos",
+              "Dados do devedor (endereço, emprego, se é assalariado ou autônomo, bens conhecidos)",
+              "Se houve pagamentos parciais ou tentativas de acordo/cobrança extrajudicial"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Inadimplemento da pensão iniciado há cerca de 4 meses (aprox. maio/2026), conforme relato; sem data exata informada",
+            "fundamentacao": "A rubrica classifica expressamente 'pensão alimentícia em atraso' como urgência alta, e há sentença judicial fixando o valor, o que permite execução imediata. São quatro meses de inadimplemento com prejuízo em curso: a cliente relata não ter condições de pagar a escola da filha. Não há audiência, intimação ou prazo processual correndo contra a cliente que justifique nível crítico. Contudo, o decurso do tempo é relevante, pois o rito mais gravoso de cobrança alcança apenas as parcelas mais recentes, o que torna a atuação rápida essencial.",
+            "riscos": [
+              "Perda de eficácia da cobrança das parcelas mais antigas no rito executivo mais gravoso, à medida que o tempo passa e novas parcelas vencem",
+              "Falta do número do processo e da comarca atrasa o ajuizamento da execução dos alimentos",
+              "Desconhecimento de emprego, endereço e bens do devedor pode inviabilizar desconto em folha, penhora ou bloqueio",
+              "Agravamento do prejuízo à filha (possível perda da vaga escolar ou inadimplência com a instituição)",
+              "Não se sabe se houve pagamentos parciais, o que pode alterar o valor e a estratégia de cobrança"
+            ],
+            "acao_recomendada": "Contatar a cliente por telefone em até 48 horas para obter número do processo, vara/comarca, valor fixado, comprovantes de pagamentos parciais e dados do devedor (emprego, endereço, bens), e encaminhar ao setor de família para protocolo da execução de alimentos nesta semana."
+          },
+          "resposta": {
+            "assunto": "Novo contato - pensão alimentícia em atraso (WhatsApp)",
+            "corpo": "Olá, bom dia. Recebemos sua mensagem e agradecemos o contato.\n\nEntendemos que o pai da sua filha não paga a pensão há cerca de quatro meses, mesmo havendo sentença que fixou o valor, e que isso tem dificultado as despesas escolares dela.\n\nSeu caso já foi encaminhado com prioridade. Um advogado da área vai analisar e entrar em contato para agendar uma conversa.\n\nPara adiantar, pode nos informar:\n1) Qual o valor da pensão fixado na sentença?\n2) Qual o número do processo e a vara/comarca?\n3) Qual a idade da sua filha?\n4) Houve algum pagamento parcial ou tentativa de acordo nesse período?\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o valor da pensão fixado na sentença?",
+              "Qual o número do processo e a vara/comarca onde a sentença foi proferida?",
+              "Qual a idade da sua filha?",
+              "Houve algum pagamento parcial ou tentativa de acordo nesses quatro meses?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores de honorários ou parecer conclusivo; os fatos conferem com a ficha, o tratamento da urgência segue a R7 e não há vazamento de dados internos nem formatação inadequada para WhatsApp."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:08:18.409911-03:00",
+          "canal": "whatsapp",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Relata situação concreta própria: pai da filha inadimplente com pensão alimentícia há 4 meses, já com valor fixado em sentença. Pede orientação sobre o que fazer, o que caracteriza busca de atendimento para execução de alimentos, tema de direito de família."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que o pai de sua filha não efetua o pagamento da pensão alimentícia há quatro meses. Informa que existe sentença judicial fixando o valor da pensão. Afirma estar sem condições de arcar com a mensalidade escolar da filha e busca orientação sobre as medidas cabíveis.",
+            "partes_contrarias": [
+              "o pai da minha filha"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Início do período de inadimplemento da pensão (quatro meses antes da mensagem)",
+                "data": null,
+                "trecho": "não paga a pensão há 4 meses"
+              }
+            ],
+            "documentos_mencionados": [
+              "sentença do juiz fixando o valor da pensão"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Valor da pensão fixada e forma de pagamento estabelecida na sentença",
+              "Número do processo e vara em que a sentença foi proferida",
+              "Idade da filha e se há outros filhos envolvidos",
+              "Dados do devedor (endereço, emprego, fonte de renda e patrimônio)",
+              "Se houve pagamentos parciais no período e se há comprovantes das despesas da criança"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Inadimplemento da pensão iniciado há cerca de 4 meses (aproximadamente maio/2026), ainda em curso em 2026-09-23",
+            "fundamentacao": "Há sentença judicial fixando alimentos e inadimplemento contínuo de quatro meses, situação que a rubrica classifica expressamente como alta (pensão alimentícia em atraso). O prejuízo é atual e progressivo: a mãe declara não conseguir pagar a mensalidade escolar da filha. Não há audiência, citação ou ordem judicial com prazo correndo nos próximos dias que justifique o nível crítico. A janela das prestações vencidas mais recentes é relevante para a escolha do rito executivo, o que reforça o tratamento prioritário.",
+            "riscos": [
+              "Perda da janela mais favorável ao rito de execução com pedido de prisão civil, que alcança as prestações vencidas mais recentes, caso o atraso continue se acumulando sem providência",
+              "Desconhecimento do número do processo e da vara impede verificar se já existe execução em curso ou algum ato judicial com prazo correndo contra a cliente",
+              "Ausência de dados sobre emprego, renda, endereço e patrimônio do devedor pode inviabilizar penhora ou desconto em folha se houver dissipação de bens",
+              "Não se sabe se houve pagamentos parciais no período, o que altera o cálculo do débito e a estratégia executiva",
+              "Dano imediato à filha: possível perda da vaga escolar ou interrupção dos estudos por inadimplência da mensalidade"
+            ],
+            "acao_recomendada": "Contatar a cliente em até 24 horas para colher cópia da sentença, número do processo/vara, planilha dos meses em aberto e dados do devedor (endereço, empregador, renda), e encaminhar ao setor de família para protocolo de cumprimento de sentença de alimentos com pedido de prisão civil quanto às prestações recentes e penhora/desconto em folha quanto ao restante."
+          },
+          "resposta": {
+            "assunto": "Novo contato - pensão alimentícia em atraso",
+            "corpo": "Olá! Recebemos sua mensagem e entendemos a situação: o pai da sua filha está há quatro meses sem pagar a pensão fixada em sentença, e isso afetou a mensalidade escolar dela. Seu caso foi priorizado e um advogado da área vai analisar e entrar em contato para agendar uma conversa. Para adiantar, pode nos informar: 1) o número do processo e a vara da sentença; 2) o valor e a forma de pagamento definidos; 3) a idade da sua filha e se há outros filhos; 4) se houve algum pagamento parcial nesses meses. Obrigado pela confiança. Equipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o número do processo e a vara em que a sentença foi proferida?",
+              "Qual o valor da pensão e a forma de pagamento definidos na sentença?",
+              "Qual a idade da sua filha e há outros filhos envolvidos?",
+              "Houve algum pagamento parcial nesses quatro meses?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta não promete resultado, não informa valores nem antecipa parecer jurídico, mantém linguagem sóbria e sem markdown, e os fatos conferem com a ficha; a menção à priorização está autorizada pela R7."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "previdenciario_negado",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:08:57.235388-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "previdenciario",
+            "confianca": 0.96,
+            "justificativa": "Relata caso próprio e concreto: indeferimento de auxílio-doença pelo INSS após perícia. Menciona laudos médicos que contrariam a decisão. Benefício previdenciário é matéria do INSS."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que requereu auxílio-doença junto ao INSS e teve o benefício negado após perícia realizada no dia 10 do mês da mensagem. Informa que seu médico afirma que ele não tem condições de retornar ao trabalho. Declara possuir laudos médicos.",
+            "partes_contrarias": [
+              "INSS"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Perícia do INSS que resultou na negativa do auxílio-doença",
+                "data": "2026-09-10",
+                "trecho": "negado pelo INSS na perícia do dia 10 deste mês"
+              }
+            ],
+            "documentos_mencionados": [
+              "laudos médicos"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo e dados de contato do cliente",
+              "Doença/CID e histórico do tratamento, com data de início da incapacidade",
+              "Data do requerimento administrativo (DER) e número do benefício/protocolo, além do motivo formal da negativa na carta de indeferimento",
+              "Situação laboral: se é empregado, autônomo ou contribuinte individual, e se está afastado pela empresa",
+              "Histórico de contribuições/qualidade de segurado e se houve benefício anterior pelo mesmo motivo"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Indeferimento do auxílio-doença na perícia do INSS em 2026-09-10 (13 dias decorridos até hoje), com prazo de recurso administrativo já em curso desde a ciência da negativa",
+            "fundamentacao": "O benefício foi negado em perícia realizada em 2026-09-10, ou seja, há apenas 13 dias, o que se enquadra no sinal da rubrica 'benefício do INSS negado recentemente (prazo de recurso)'. O cliente afirma manter incapacidade laboral atestada por médico e possui laudos, o que sustenta recurso ou ação, mas depende de agir dentro da janela recursal. Não há, nos fatos, indicação de risco de dano irreversível em até 5 dias úteis (não se trata de negativa de cirurgia ou medicamento que exija liminar de saúde), o que afasta o nível crítico. Faltam a data exata da ciência formal do indeferimento e o motivo constante da carta, o que reforça o tratamento como alta pela regra da dúvida.",
+            "riscos": [
+              "Perda do prazo de recurso administrativo (CRPS) por não se saber a data exata da ciência formal da carta de indeferimento",
+              "Ausência de renda durante a incapacidade, com risco de agravamento financeiro e de perda da qualidade de segurado se as contribuições cessarem",
+              "Desconhecimento do motivo formal da negativa (se por não constatação de incapacidade, falta de carência ou perda da qualidade de segurado) pode levar à escolha de via inadequada",
+              "Desconhecimento da situação laboral: se estiver empregado e afastado sem cobertura, pode haver risco de desconto de faltas ou demissão ('limbo previdenciário')",
+              "Documentação médica pode estar incompleta para demonstrar a data de início da incapacidade (DII)"
+            ],
+            "acao_recomendada": "Contatar o cliente por telefone em até 24h para colher nome, contato, número do benefício/protocolo (DER) e a data de ciência da carta de indeferimento, solicitando o envio imediato da carta, do CNIS e dos laudos médicos para conferir o prazo recursal e decidir entre recurso administrativo e ação judicial."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre o auxílio-doença negado pelo INSS",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem e agradecemos a confiança.\n\nEntendemos que seu pedido de auxílio-doença foi negado pelo INSS na perícia do dia 10 deste mês, embora seu médico afirme que você não tem condições de retornar ao trabalho, e que você possui laudos médicos.\n\nComo existe um prazo administrativo em curso desde a ciência da negativa, seu contato foi priorizado. Um advogado da área analisará as informações e entrará em contato para agendar uma conversa, na qual o caso poderá ser avaliado com calma.\n\nPara que essa análise seja mais completa, pedimos que responda a este e-mail com:\n\n1. Seu nome completo e um telefone para contato;\n2. A data do requerimento e o número do benefício ou protocolo, além do motivo indicado na carta de indeferimento;\n3. Qual a doença ou CID, desde quando está em tratamento e desde quando está sem trabalhar;\n4. Sua situação de trabalho hoje (empregado, autônomo ou contribuinte individual) e se está afastado pela empresa.\n\nSe preferir, os laudos podem ser apresentados na conversa com o advogado.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual é o seu nome completo e um telefone para contato?",
+              "Qual a data do requerimento e o número do benefício ou protocolo, e qual motivo consta na carta de indeferimento?",
+              "Qual a doença ou CID, desde quando está em tratamento e desde quando está sem trabalhar?",
+              "Qual sua situação de trabalho atual (empregado, autônomo ou contribuinte individual) e você está afastado pela empresa?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem não promete resultado, não cita valores nem emite parecer conclusivo, mantém linguagem sóbria, é fiel à ficha e trata a priorização de forma adequada ao prazo em curso."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:09:35.741164-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "previdenciario",
+            "confianca": 0.96,
+            "justificativa": "Relata caso próprio e concreto: indeferimento de auxílio-doença pelo INSS após perícia. Menciona laudos médicos e incapacidade para o trabalho, tema de benefício previdenciário."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que requereu auxílio-doença ao INSS e teve o benefício negado em perícia realizada no dia 10 do mês de recebimento da mensagem. Informa que seu médico afirma que ele não tem condições de retornar ao trabalho. Declara possuir laudos médicos.",
+            "partes_contrarias": [
+              "INSS"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Perícia do INSS em que o auxílio-doença foi negado",
+                "data": "2026-09-10",
+                "trecho": "negado pelo INSS na perícia do dia 10 deste mês"
+              }
+            ],
+            "documentos_mencionados": [
+              "laudos médicos"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Qual a doença/lesão alegada e desde quando está incapacitado",
+              "Se o cliente é segurado e mantém qualidade de segurado (data da última contribuição, tipo de vínculo)",
+              "Data do requerimento administrativo (DER) e número do benefício/protocolo",
+              "Motivo apontado na carta de indicação/comunicação de decisão do INSS",
+              "Se já houve pedido de reconsideração ou recurso administrativo e respectivos prazos"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Negativa em perícia do INSS em 2026-09-10 (13 dias atrás); prazo de recurso administrativo já em curso, com data exata de ciência da decisão não informada",
+            "fundamentacao": "O auxílio-doença foi negado em perícia de 2026-09-10, ou seja, há 13 dias, o que se enquadra no sinal 'benefício do INSS negado recentemente (prazo de recurso)' da faixa alta. O cliente relata incapacidade atual atestada por médico e ausência de condições de retorno ao trabalho, o que indica prejuízo em curso (sem benefício e sem trabalho). Não há, nos fatos, sinal de dano irreversível em até 5 dias úteis (não há audiência, ordem judicial ou necessidade de liminar de saúde para cirurgia/medicamento), razão pela qual não se classifica como crítica. Faltam a data de ciência formal da decisão, a DER e o motivo do indeferimento, o que impede precisar o termo final do recurso e reforça o tratamento no nível mais alto dentro da faixa.",
+            "riscos": [
+              "Perda do prazo para recurso administrativo à Junta de Recursos: a data de ciência formal da comunicação de decisão não é conhecida, e o prazo pode estar mais avançado do que a data da perícia sugere.",
+              "Possível perda da qualidade de segurado: não se sabe a data da última contribuição nem o tipo de vínculo, o que pode comprometer o direito ao benefício se houver demora.",
+              "Período de incapacidade sem renda e sem cobertura previdenciária, com risco de agravamento financeiro e eventual demissão/abandono de emprego.",
+              "Desconhecimento do motivo do indeferimento (falta de qualidade de segurado, carência ou ausência de incapacidade) pode levar à escolha de via inadequada (recurso administrativo x ação judicial).",
+              "Se houver urgência médica concreta (cirurgia, tratamento ou risco à saúde) ainda não relatada, o caso pode subir para nível crítico."
+            ],
+            "acao_recomendada": "Contatar o cliente por telefone em até 24 horas para obter a carta de concessão/indeferimento com a data de ciência, o número do benefício/DER, o CNIS ou extrato de contribuições e os laudos médicos, e, no mesmo dia do retorno, calcular o prazo do recurso administrativo e avaliar cabimento de ação judicial com tutela de urgência."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre o benefício negado pelo INSS",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem e agradecemos a confiança. Entendemos que você requereu auxílio-doença, teve o benefício negado na perícia do dia 10 deste mês e que seu médico afirma que você não tem condições de retornar ao trabalho.\n\nSeu relato já foi encaminhado para análise de um advogado da área, com atenção prioritária, tendo em vista que decisões administrativas do INSS têm prazos próprios. Ele entrará em contato em breve para agendar uma conversa e examinar a documentação com você.\n\nPara que essa análise seja mais completa, pedimos que responda, quando possível:\n\n1. Qual a doença ou lesão alegada e desde quando você está afastado das atividades?\n2. Qual a data do último recolhimento ao INSS e qual o tipo de vínculo (empregado, autônomo, facultativo)?\n3. Qual a data do requerimento e o número do benefício ou protocolo?\n4. Qual o motivo indicado na comunicação de decisão do INSS e se já houve pedido de reconsideração ou recurso?\n\nSe preferir, informe também um telefone para contato.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a doença ou lesão alegada e desde quando você está afastado das atividades?",
+              "Qual a data do último recolhimento ao INSS e qual o tipo de vínculo (empregado, autônomo, facultativo)?",
+              "Qual a data do requerimento e o número do benefício ou protocolo?",
+              "Qual o motivo indicado na comunicação de decisão do INSS e se já houve pedido de reconsideração ou recurso?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem não promete resultado, não menciona valores nem antecipa parecer jurídico; os fatos conferem com a ficha e a priorização foi comunicada nos termos permitidos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:10:12.251837-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "previdenciario",
+            "confianca": 0.96,
+            "justificativa": "Relata caso próprio e concreto: indeferimento de auxílio-doença pelo INSS após perícia, com laudos médicos em sentido contrário. Benefício previdenciário do INSS caracteriza área previdenciária."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata que requereu auxílio-doença junto ao INSS e teve o benefício negado após perícia realizada no dia 10 do mês de recebimento da mensagem. Afirma que seu médico entende que ele não tem condições de retornar ao trabalho. Informa possuir laudos médicos.",
+            "partes_contrarias": [
+              "INSS"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Perícia do INSS que resultou na negativa do auxílio-doença",
+                "data": "2026-09-10",
+                "trecho": "negado pelo INSS na perícia do dia 10 deste mês"
+              }
+            ],
+            "documentos_mencionados": [
+              "laudos médicos"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Motivo informado pelo INSS para o indeferimento (carta de concessão/indeferimento)",
+              "Data do requerimento administrativo (DER) e número do benefício",
+              "Doença/CID, tempo de afastamento e se há atestados do período",
+              "Situação laboral e de contribuições: se é empregado, autônomo ou contribuinte individual, e últimos recolhimentos",
+              "Se já apresentou recurso administrativo ou novo pedido"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Indeferimento do auxílio-doença em perícia de 2026-09-10 (13 dias atrás); prazo de recurso administrativo ao CRPS em curso, a confirmar pela data de ciência na carta de indeferimento",
+            "fundamentacao": "O INSS negou o auxílio-doença em perícia realizada em 2026-09-10, ou seja, há 13 dias, o que caracteriza benefício previdenciário negado recentemente com prazo de recurso em curso — sinal expresso do nível alta na rubrica. Não há, nos fatos, audiência, liminar de saúde ou outro evento com dano irreversível em até 5 dias úteis que justifique nível crítico. O cliente afirma estar incapaz para o trabalho segundo seu médico e já dispõe de laudos, o que reforça a necessidade de atuação rápida para não perder a via administrativa. Faltam dados (data exata de ciência do indeferimento, DER, motivo da negativa) que poderiam elevar a urgência.",
+            "riscos": [
+              "Perda do prazo de recurso administrativo ao CRPS por desconhecimento da data exata de ciência do indeferimento — a contagem pode já estar mais avançada do que a data da perícia sugere",
+              "Cliente possivelmente sem renda e sem cobertura previdenciária enquanto incapaz, com risco de agravamento financeiro e de saúde",
+              "Não se sabe o motivo do indeferimento (falta de qualidade de segurado/carência x não constatação de incapacidade), o que impede descartar risco de perda da qualidade de segurado e de prejuízo à concessão futura",
+              "Desconhecida a situação de contribuições e vínculo laboral; se for contribuinte individual, atraso nos recolhimentos pode inviabilizar novo pedido"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 24h para obter a carta/comunicado de indeferimento com a data de ciência, o número do benefício (NB), a DER e o extrato CNIS, e agendar com o setor previdenciário a análise sobre recurso ao CRPS ou ação judicial ainda esta semana."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre o auxílio-doença negado pelo INSS",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem e agradecemos a confiança.\n\nEntendemos que você requereu auxílio-doença ao INSS, teve o benefício negado após a perícia do dia 10 deste mês e que seu médico entende que você não tem condições de retornar ao trabalho, havendo laudos que registram sua situação.\n\nComo existe um prazo administrativo em curso a partir da ciência do indeferimento, seu relato já foi encaminhado com prioridade para um advogado da área, que analisará as informações e entrará em contato para agendar uma conversa.\n\nPara que essa análise seja feita com precisão, pedimos que responda a este e-mail com:\n\n1. Qual o motivo do indeferimento indicado na carta do INSS e em que data você tomou ciência dela?\n2. Qual a data do requerimento e o número do benefício (NB)?\n3. Qual a doença ou CID, há quanto tempo está afastado e se possui atestados desse período?\n4. Você trabalha como empregado, autônomo ou contribuinte individual, e quando foram os últimos recolhimentos?\n\nSe preferir, pode informar um telefone para contato.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o motivo do indeferimento indicado na carta do INSS e em que data você tomou ciência dela?",
+              "Qual a data do requerimento administrativo e o número do benefício (NB)?",
+              "Qual a doença ou CID, há quanto tempo está afastado e possui atestados desse período?",
+              "Você trabalha como empregado, autônomo ou contribuinte individual, e quando foram seus últimos recolhimentos?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores, parecer conclusivo ou pedido de dados sensíveis; os fatos conferem com a ficha e a priorização está comunicada conforme a R7, em formato adequado ao e-mail."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "cliente_existente",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:10:50.537974-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento. Pergunta sobre providência relativa a intimação recebida. Numeração do segmento 8 (TJSP) indica processo cível estadual."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, que se identifica como Roberto e cliente do Dr. Paulo, informa ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Ele pergunta se precisa adotar alguma providência. A mensagem não detalha o conteúdo da carta nem o objeto do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida (tipo de ato: citação, intimação, audiência) e data de recebimento",
+              "Objeto do processo e posição do cliente nele (autor ou réu)",
+              "Se há prazo indicado na comunicação",
+              "Dados de contato do cliente (telefone/e-mail) para retorno",
+              "Se o Dr. Paulo já atua no processo e se há procuração outorgada"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": null,
+            "fundamentacao": "Roberto informa ter recebido carta do fórum no processo nº 1004567-12.2024.8.26.0224, sem indicar o conteúdo do ato nem a data de recebimento. Comunicação judicial recebida pelo próprio cliente é, na maioria dos casos, citação ou intimação, hipótese que a rubrica classifica como crítica por haver prazo já em curso. Como não é possível descartar que o prazo esteja correndo desde o recebimento, aplica-se a regra da dúvida em favor do nível mais alto.",
+            "riscos": [
+              "Não se sabe o tipo de ato (citação, intimação ou designação de audiência) nem a data de recebimento, de modo que o prazo pode já estar correndo e próximo do fim",
+              "Possível revelia ou preclusão caso se trate de citação de réu e não haja resposta tempestiva",
+              "Pode haver audiência designada para os próximos dias sem que o escritório tenha ciência",
+              "Não se sabe se o Dr. Paulo já atua no processo com procuração, o que pode significar ausência de intimações no sistema e de acompanhamento de prazo",
+              "Ficha sem telefone e e-mail, o que pode atrasar o contato de retorno"
+            ],
+            "acao_recomendada": "Equipe deve contatar Roberto hoje pelo mesmo canal da mensagem, obter foto/cópia da carta e a data de recebimento, e em paralelo consultar imediatamente o andamento do processo 1004567-12.2024.8.26.0224 no TJSP para identificar o ato e o prazo, reportando ao Dr. Paulo ainda no mesmo dia."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a carta do fórum (processo 1004567-12.2024.8.26.0224)",
+            "corpo": "Olá, Roberto,\n\nRecebemos sua mensagem informando que chegou uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224 e que você gostaria de saber se precisa adotar alguma providência.\n\nSeu contato foi encaminhado com prioridade. Um advogado da área analisará a situação e entrará em contato em breve para agendar uma conversa e esclarecer os pontos com você.\n\nPara que essa análise seja feita da forma mais completa, pedimos que responda a este e-mail com as informações abaixo:\n\n1. O que está escrito na carta (por exemplo, se menciona citação, intimação ou audiência) e em que data você a recebeu?\n2. Sobre o que é o processo e em que posição você aparece nele (quem propôs a ação)?\n3. A comunicação indica algum prazo ou data?\n4. Qual o melhor telefone e e-mail para retorno?\n\nSe preferir, pode transcrever no e-mail os trechos principais da carta.\n\nAtenciosamente,\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "O que está escrito na carta (por exemplo, se menciona citação, intimação ou audiência) e em que data você a recebeu?",
+              "Sobre o que é o processo e em que posição você aparece nele (quem propôs a ação)?",
+              "A comunicação indica algum prazo ou data?",
+              "Qual o melhor telefone e e-mail para retorno?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta mantém-se factual quanto à ficha, não promete resultado, não menciona valores nem antecipa parecer, sinaliza prioridade e contato de advogado conforme R7, e solicita apenas informações legítimas para a análise."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:11:31.384310-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento. Pergunta sobre providência quanto a carta do fórum. Numeração 8.26 indica processo cível estadual (TJSP)."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, que se identifica como Roberto e informa ser cliente do Dr. Paulo, relata ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Ele pergunta se precisa adotar alguma providência. Não foram informados o conteúdo da carta nem detalhes do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida e data de recebimento/juntada",
+              "Nome completo do cliente e posição no processo (autor ou réu)",
+              "Objeto do processo e nome da parte contrária",
+              "Se há prazo indicado na comunicação",
+              "Dados de contato para retorno (telefone/e-mail)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": null,
+            "fundamentacao": "O cliente informa ter recebido carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224, comunicação que tipicamente veicula citação ou intimação, hipótese que a rubrica classifica como crítica por haver prazo correndo desde o recebimento. Não há informação sobre o conteúdo da carta, a data de recebimento, a posição do cliente no processo nem se há prazo indicado, de modo que não é possível descartar que o prazo já esteja em curso e próximo do fim. Aplicando a regra da dúvida entre níveis, mantém-se a classificação mais alta. O caso exige verificação imediata do andamento processual antes de qualquer triagem adicional.",
+            "riscos": [
+              "Possível citação ou intimação com prazo processual já em curso, cuja perda pode gerar revelia ou preclusão",
+              "Data de recebimento da carta desconhecida — o prazo pode estar em vias de expirar",
+              "Conteúdo da carta não informado: pode se tratar de audiência designada, cumprimento de sentença ou ordem judicial com data próxima",
+              "Posição do cliente (autor ou réu) e objeto do processo desconhecidos, impedindo dimensionar a consequência da inércia",
+              "Ficha sem telefone e e-mail, o que pode atrasar o contato de retorno"
+            ],
+            "acao_recomendada": "Consultar hoje o andamento do processo 1004567-12.2024.8.26.0224 no TJSP para identificar o ato e o prazo, e acionar o Dr. Paulo para contatar Roberto ainda nesta data solicitando foto da carta e a data em que a recebeu."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre a carta do fórum — processo 1004567-12.2024.8.26.0224",
+            "corpo": "Olá, Roberto,\n\nRecebemos sua mensagem informando que chegou uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224 e que você gostaria de saber se precisa tomar alguma providência.\n\nSeu contato já foi encaminhado com prioridade para o advogado responsável pela área, que vai analisar a situação e entrar em contato para agendar uma conversa.\n\nPara que essa análise seja feita com mais precisão, pedimos que nos envie, quando possível:\n\n1. O conteúdo da carta recebida (pode ser uma foto ou a transcrição do texto) e a data em que ela chegou;\n2. Seu nome completo e se você figura como autor ou réu nesse processo;\n3. Qual é o assunto do processo e o nome da outra parte envolvida;\n4. Se a comunicação menciona algum prazo e, em caso positivo, qual.\n\nSe preferir, informe também um telefone e um e-mail para retorno.\n\nFicamos à disposição.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual é o conteúdo da carta recebida e em que data ela chegou?",
+              "Qual é o seu nome completo e você é autor ou réu nesse processo?",
+              "Qual é o assunto do processo e o nome da outra parte envolvida?",
+              "A comunicação menciona algum prazo? Se sim, qual?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta é fiel à ficha, não promete resultado nem antecipa parecer, não menciona valores e trata a urgência corretamente informando priorização e contato do advogado; os dados solicitados são legítimos e não incluem itens vedados."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": true,
+          "conformidade": false
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:12:02.286432-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento. Numeração do segmento 8 (TJSP) indica processo cível estadual. Pergunta sobre providências em intimação recebida."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, que se identifica como Roberto e cliente do Dr. Paulo, informa ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Ele pergunta se precisa tomar alguma providência. A mensagem não detalha o conteúdo da carta nem o objeto do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida (tipo de ato: citação, intimação, audiência) e data de recebimento",
+              "Objeto do processo e posição do cliente (autor ou réu)",
+              "Se já há advogado constituído nos autos e quem o representa",
+              "Existência de prazo indicado na comunicação",
+              "Contato do cliente (telefone/e-mail) para retorno"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": null,
+            "fundamentacao": "Roberto informa ter recebido carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224, sem detalhar o conteúdo, a data de recebimento ou o tipo de ato. Comunicação judicial por carta normalmente veicula citação, intimação de audiência ou de sentença, hipóteses em que o prazo já está correndo desde o recebimento. A rubrica classifica como crítica a 'citação ou intimação recebida com prazo correndo', e a ausência de informação não permite descartar esse risco. Aplicando a regra da dúvida, o caso entra como crítico até que se confirme o teor da carta.",
+            "riscos": [
+              "Não se sabe o teor da carta (citação, intimação de audiência, de sentença ou mero comunicado), impedindo descartar prazo em curso",
+              "Não se sabe a data de recebimento: o prazo pode já estar em curso há dias e vencer nos próximos dias úteis",
+              "Possível revelia ou perda de prazo recursal caso se trate de citação/intimação e nada seja protocolado",
+              "Não se sabe se há advogado constituído nos autos nem se o Dr. Paulo já foi intimado eletronicamente, podendo haver lacuna de acompanhamento",
+              "Ficha sem telefone e e-mail, o que pode atrasar o contato de retorno"
+            ],
+            "acao_recomendada": "Ainda hoje, responder ao Roberto pelo mesmo canal pedindo foto da carta completa (frente e verso) e a data em que a recebeu, e, em paralelo, consultar o andamento do processo 1004567-12.2024.8.26.0224 no TJSP e alinhar com o Dr. Paulo se há prazo em curso."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre a carta do fórum - processo 1004567-12.2024.8.26.0224",
+            "corpo": "Olá, Roberto,\n\nRecebemos sua mensagem informando que chegou uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224 e que você gostaria de saber se precisa tomar alguma providência.\n\nSeu contato foi priorizado e encaminhado a um advogado da área, que analisará a situação e entrará em contato em breve para agendar uma conversa e orientar sobre os próximos passos.\n\nPara que essa análise seja feita com mais precisão, pedimos que responda, se possível:\n\n1. O que está escrito no cabeçalho ou no título da carta (por exemplo: citação, intimação, audiência) e em que data você a recebeu?\n2. Sobre o que é o processo e você figura como autor ou como réu?\n3. Já existe advogado constituído nesse processo e quem o representa?\n4. A comunicação menciona algum prazo ou data para comparecimento?\n\nSe preferir, informe também um telefone para retorno. Por segurança, não envie por este canal senhas, dados bancários ou cópias de documentos pessoais.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "O que está escrito no cabeçalho ou título da carta (citação, intimação, audiência) e em que data você a recebeu?",
+              "Sobre o que é o processo e você figura como autor ou como réu?",
+              "Já existe advogado constituído nesse processo e quem o representa?",
+              "A comunicação menciona algum prazo ou data para comparecimento?"
+            ]
+          },
+          "revisao": null,
+          "tentativas_resposta": 2,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje.",
+            "Resposta não aprovada após 2 tentativas; último feedback:\n- R5: pedido de dado sensível (\"dados bancários\")"
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "duvida_teorica",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:12:34.660035-03:00",
+          "canal": "formulario",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "duvida_geral",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Pergunta conceitual sobre modalidades de divórcio, sem relatar caso próprio. O próprio remetente afirma ser apenas curiosidade. Tema de direito de família."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa enviou mensagem perguntando qual a diferença entre divórcio consensual e litigioso. Informou que se trata apenas de curiosidade. Não relatou situação concreta nem forneceu dados pessoais.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Se existe situação concreta de separação ou divórcio envolvendo a pessoa",
+              "Estado civil atual e data do casamento, se houver",
+              "Existência de filhos menores e regime de guarda pretendido",
+              "Regime de bens e patrimônio a partilhar",
+              "Dados de contato (nome completo, telefone, e-mail)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "baixa",
+            "prazo_identificado": null,
+            "fundamentacao": "A mensagem é uma dúvida em tese sobre a diferença entre divórcio consensual e litigioso, declarada expressamente como curiosidade. Não há relato de situação concreta, processo em curso, filhos, partilha ou qualquer data relevante. Nenhum sinal das faixas crítica, alta ou média foi identificado, enquadrando-se em 'baixa' (dúvida em tese, sem consequência em curso).",
+            "riscos": [
+              "A pessoa pode estar minimizando uma situação familiar real ao dizer que é 'só curiosidade'; não há informação sobre estado civil, separação de fato ou processo já ajuizado",
+              "Sem dados de contato (nome, telefone, e-mail), não é possível retornar caso surja algo urgente",
+              "Se houver ação de divórcio ou medida já ajuizada contra a pessoa, poderia existir prazo correndo desconhecido pelo escritório"
+            ],
+            "acao_recomendada": "Atendimento inicial pode responder em até 5 dias úteis com explicação genérica, coletando nome e telefone e perguntando expressamente se há separação em curso, filhos menores ou alguma citação/intimação recebida, para reclassificar se necessário."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre divórcio consensual e litigioso",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem perguntando qual a diferença entre divórcio consensual e litigioso, e você mencionou que se trata de uma curiosidade no momento.\n\nDe forma geral, a distinção está no grau de acordo entre as partes quanto aos pontos do divórcio, e cada situação tem particularidades que só podem ser avaliadas caso a caso. Por isso, um advogado da nossa equipe vai analisar sua mensagem e entrar em contato para agendar uma conversa, na qual essas explicações poderão ser dadas com mais detalhe.\n\nPara que essa conversa seja mais proveitosa, seria útil saber:\n\n1. Existe alguma situação concreta de separação ou divórcio envolvendo você ou alguém próximo, ou a dúvida é apenas informativa?\n2. Se houver, qual o estado civil atual e a data aproximada do casamento?\n3. Há filhos menores de idade envolvidos?\n4. Qual o seu nome completo e o melhor telefone ou e-mail para contato?\n\nFicamos à disposição para receber essas informações quando for possível.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Existe alguma situação concreta de separação ou divórcio envolvendo você ou alguém próximo, ou a dúvida é apenas informativa?",
+              "Se houver, qual o estado civil atual e a data aproximada do casamento?",
+              "Há filhos menores de idade envolvidos?",
+              "Qual o seu nome completo e o melhor telefone ou e-mail para contato?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores, parecer conclusivo ou vazamento de dados internos; a explicação é genérica e remete a análise ao advogado, e o canal é formulário, onde a estruturação usada é aceitável."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:13:07.365431-03:00",
+          "canal": "formulario",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "duvida_geral",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Pergunta conceitual sobre modalidades de divórcio, sem relato de caso próprio. O próprio texto afirma ser \"só curiosidade\". Tema de direito de família."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa enviou uma pergunta genérica sobre a diferença entre divórcio consensual e litigioso. Informou que se trata apenas de curiosidade. Não relatou situação concreta nem forneceu dados pessoais.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Se existe situação concreta de divórcio ou separação envolvendo a pessoa",
+              "Dados de contato (nome, telefone, e-mail)",
+              "Estado civil atual e data do casamento, se aplicável",
+              "Existência de filhos menores e regime de bens",
+              "Se há interesse em contratar serviço ou apenas informação"
+            ]
+          },
+          "urgencia": {
+            "nivel": "baixa",
+            "prazo_identificado": null,
+            "fundamentacao": "A mensagem traz apenas pergunta conceitual sobre a diferença entre divórcio consensual e litigioso, declarada expressamente como curiosidade. Não há relato de situação concreta, parte contrária, processo em curso, filhos menores ou qualquer data relevante. Sem fato com prazo em curso ou consequência atual, enquadra-se em 'baixa' (dúvida em tese/planejamento). Não há sinal algum das hipóteses de média, alta ou crítica da rubrica.",
+            "riscos": [
+              "A pessoa pode estar minimizando uma situação real (separação já em curso, citação recebida ou medida protetiva) ao descrever como 'só curiosidade'; nada na mensagem permite confirmar ou descartar isso.",
+              "Ausência total de dados de contato (nome, telefone, e-mail) impede retorno ativo caso o caso se revele concreto.",
+              "Não se sabe se há filhos menores, partilha de bens ou violência doméstica envolvida — fatores que mudariam o nível."
+            ],
+            "acao_recomendada": "Atendimento em fila normal: equipe de triagem responde com material informativo padrão sobre divórcio consensual x litigioso e solicita nome, telefone e uma pergunta de confirmação ('existe hoje alguma separação, processo ou prazo em andamento com você ou alguém próximo?'), reclassificando o caso se a resposta for positiva."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre divórcio consensual e litigioso",
+            "corpo": "Olá, tudo bem?\n\nAgradecemos o seu contato. Entendemos que a sua dúvida é sobre a diferença entre o divórcio consensual e o litigioso, e que, por ora, se trata de curiosidade, sem uma situação concreta envolvida.\n\nDe forma bem geral, a distinção costuma estar na existência ou não de acordo entre as partes quanto aos pontos do divórcio. Como cada caso tem particularidades, esse tipo de explicação é feita com calma por um advogado, em uma conversa dedicada ao assunto.\n\nPróximo passo: um advogado da área de família vai analisar a sua mensagem e entrar em contato para agendar uma conversa, caso você tenha interesse.\n\nPara que possamos direcionar melhor, você poderia nos informar:\n\n1. Existe alguma situação concreta de divórcio ou separação envolvendo você ou alguém próximo?\n2. Qual o seu nome e um telefone ou e-mail para contato?\n3. Se houver um caso concreto, há filhos menores de idade envolvidos?\n4. Seu interesse, neste momento, é apenas obter informações ou conversar sobre um atendimento?\n\nFicamos à disposição.\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Existe alguma situação concreta de divórcio ou separação envolvendo você ou alguém próximo?",
+              "Qual o seu nome e um telefone ou e-mail para contato?",
+              "Se houver um caso concreto, há filhos menores de idade envolvidos?",
+              "Seu interesse, neste momento, é apenas obter informações ou conversar sobre um atendimento?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta não promete resultado, não cita valores nem emite parecer conclusivo, mantém tom sóbrio e é fiel à ficha, com próximo passo e perguntas adequadas."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:13:38.543353-03:00",
+          "canal": "formulario",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "duvida_geral",
+            "area": "familia",
+            "confianca": 0.95,
+            "justificativa": "Pergunta conceitual sobre modalidades de divórcio, sem relato de caso próprio. O próprio autor afirma ser \"só curiosidade\". Tema de direito de família."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A pessoa enviou mensagem perguntando qual a diferença entre divórcio consensual e litigioso. Informou que se trata apenas de curiosidade. Não relatou situação concreta nem forneceu dados pessoais.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Se existe situação concreta de separação ou divórcio envolvendo o consulente",
+              "Estado civil e regime de bens do casamento, se houver",
+              "Existência de filhos menores e definição de guarda e pensão",
+              "Existência de bens a partilhar",
+              "Dados de contato do consulente (nome, telefone, e-mail)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "baixa",
+            "prazo_identificado": null,
+            "fundamentacao": "A mensagem é uma dúvida em tese sobre a diferença entre divórcio consensual e litigioso, declarada expressamente como curiosidade. Não há relato de situação concreta, prazo, audiência, intimação ou conflito familiar em curso. A ficha não registra datas relevantes, partes contrárias, documentos ou valores. Enquadra-se em 'baixa': dúvida em tese, sem consequência jurídica em curso.",
+            "riscos": [
+              "Não se sabe se há situação concreta de separação por trás da pergunta; o consulente pode estar minimizando um conflito real (eventual disputa de guarda, pensão ou medida protetiva ainda não revelada)",
+              "Ausência de dados de contato impede retorno proativo caso surja fato urgente",
+              "Existência de filhos menores e de bens a partilhar não verificada"
+            ],
+            "acao_recomendada": "Atendimento de triagem em fluxo comum (até 5 dias úteis): responder a dúvida de forma geral e, na mesma interação, colher nome, telefone/e-mail e perguntar se há separação em andamento, filhos menores, pensão ou qualquer intimação recebida, reclassificando a urgência se houver resposta positiva."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre divórcio consensual e litigioso",
+            "corpo": "Olá, tudo bem?\n\nRecebemos sua mensagem, em que você pergunta qual a diferença entre divórcio consensual e litigioso, e informa que se trata de curiosidade. Obrigado por entrar em contato conosco.\n\nEsse é um tema que admite muitas variações conforme a situação de cada família, por isso a explicação adequada depende de uma conversa com um advogado. Um profissional da equipe vai analisar sua mensagem e entrar em contato para agendar um atendimento, em que suas dúvidas poderão ser esclarecidas com calma.\n\nPara que essa conversa seja mais proveitosa, se puder, responda a este e-mail com as informações abaixo:\n\n1. Sua pergunta se refere apenas a uma dúvida geral ou existe alguma situação concreta de separação envolvendo você ou alguém próximo?\n2. Havendo casamento, você sabe informar o regime de bens adotado?\n3. Existem filhos menores de idade envolvidos?\n4. Qual o seu nome e o melhor telefone ou e-mail para contato?\n\nFicamos à disposição.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Sua pergunta se refere apenas a uma dúvida geral ou existe alguma situação concreta de separação envolvendo você ou alguém próximo?",
+              "Havendo casamento, você sabe informar o regime de bens adotado?",
+              "Existem filhos menores de idade envolvidos?",
+              "Qual o seu nome e o melhor telefone ou e-mail para contato?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores, parecer conclusivo ou vazamento de dados internos; o canal é formulário/e-mail, o que comporta a estruturação usada, e os fatos conferem com a ficha."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "fora_de_escopo_curriculo",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:14:12.542004-03:00",
+          "canal": "email",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "fora_de_escopo",
+            "area": "nao_aplicavel",
+            "confianca": 0.97,
+            "justificativa": "Envio de currículo para vaga de estágio, com menção ao semestre e disponibilidade. Não há problema jurídico a ser tratado."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:14:14.727521-03:00",
+          "canal": "email",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "fora_de_escopo",
+            "area": "nao_aplicavel",
+            "confianca": 0.97,
+            "justificativa": "Envio de currículo para vaga de estágio, sem qualquer questão jurídica. Assunto administrativo/recrutamento."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": null,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:14:16.851256-03:00",
+          "canal": "email",
+          "status": "encerrada",
+          "classificacao": {
+            "tipo_contato": "fora_de_escopo",
+            "area": "nao_aplicavel",
+            "confianca": 0.97,
+            "justificativa": "Envio de currículo para vaga de estagiário de direito, com menção a semestre e disponibilidade. Não há relato de problema jurídico, trata-se de assunto de recrutamento."
+          },
+          "extracao": null,
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "violencia_domestica",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:14:19.192727-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.9,
+            "justificativa": "Relata situação própria e concreta de ameaças e aproximação do ex-marido, com medo. Pede medida protetiva, instituto da Lei Maria da Penha, ligado à esfera criminal/violência doméstica."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que seu ex-marido continua enviando mensagens com ameaças. Informa que, no dia anterior ao contato, ele apareceu na porta de sua casa. Afirma sentir medo e manifesta interesse em solicitar medida protetiva.",
+            "partes_contrarias": [
+              "ex marido"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Ex-marido apareceu na porta da casa da cliente",
+                "data": "2026-09-22",
+                "trecho": "ontem apareceu na porta de casa"
+              }
+            ],
+            "documentos_mencionados": [
+              "mensagens com ameaças"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo e qualificação da cliente e do ex-marido",
+              "Se já houve registro de boletim de ocorrência sobre as ameaças",
+              "Se as mensagens foram preservadas (prints, celular) e por qual aplicativo",
+              "Se há filhos em comum, guarda ou visitas e se residem no mesmo município",
+              "Se há histórico anterior de violência, agressões ou medida protetiva já concedida"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Ameaça atual e contínua; comparecimento do ex-marido na residência em 2026-09-22 (ontem) — medida protetiva de urgência deve ser requerida imediatamente (Lei 11.340/2006, apreciação em até 48h do pedido/BO)",
+            "fundamentacao": "A cliente relata ameaças continuadas por mensagem e comparecimento do ex-marido na porta de sua casa em 22/09/2026, um dia antes do contato. A rubrica classifica como crítica situações de violência doméstica ou ameaça atual, com risco de dano irreversível em poucos dias. O risco à integridade física é presente e em curso, e a cliente manifesta medo e intenção de requerer medida protetiva. Não há informação sobre boletim de ocorrência prévio ou histórico de agressões, o que reforça a necessidade de atendimento imediato.",
+            "riscos": [
+              "Escalada da violência: agressão física ou feminicídio, com dano irreversível a qualquer momento",
+              "Perda de prova: mensagens ameaçadoras podem ser apagadas pelo agressor ou pelo aplicativo se não preservadas hoje (prints, ata notarial, backup)",
+              "Não se sabe se já houve boletim de ocorrência — sem registro, o pedido de medida protetiva de urgência pode ser retardado",
+              "Desconhece-se histórico anterior de violência ou medida protetiva já concedida (eventual descumprimento configuraria crime autônomo e prisão em flagrante)",
+              "Não se sabe se há filhos em comum, o que pode exigir medidas protetivas adicionais quanto a guarda e visitas"
+            ],
+            "acao_recomendada": "Advogado criminalista/família deve ligar para a cliente ainda hoje (obter telefone imediatamente), orientar registro de BO e pedido de medida protetiva na delegacia/DEAM ou via plantão judiciário nas próximas horas, instruir a preservação das mensagens (prints e backup) e protocolar o requerimento de medidas protetivas de urgência em até 24h."
+          },
+          "resposta": {
+            "assunto": "Novo contato - ameaças de ex-companheiro - urgência priorizada",
+            "corpo": "Olá, bom dia. Recebemos sua mensagem: seu ex-marido continua enviando ameaças e ontem apareceu na porta da sua casa, e você quer pedir medida protetiva. Seu relato foi priorizado e um advogado da equipe entrará em contato em breve. Se sentir risco imediato, ligue 190. A Central de Atendimento à Mulher é o 180. Para adiantar, pode nos informar: 1) seu nome completo e o nome dele; 2) se já registrou boletim de ocorrência; 3) se guardou as mensagens e em qual aplicativo; 4) se há filhos em comum. Equipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual é o seu nome completo e o nome completo do seu ex-marido?",
+              "Já foi registrado boletim de ocorrência sobre essas ameaças?",
+              "As mensagens foram guardadas (prints ou no celular) e por qual aplicativo foram enviadas?",
+              "Vocês têm filhos em comum e moram na mesma cidade?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Sem promessa de resultado, valores ou parecer conclusivo; fatos conferem com a ficha, há orientação de 190 e 180 e indicação de priorização sem expor dados internos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:14:46.800752-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.89,
+            "justificativa": "Relata situação própria e concreta de ameaças do ex-marido e comparecimento à sua residência. Pede medida protetiva, instituto da Lei Maria da Penha, com natureza penal/violência doméstica."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que seu ex-marido continua enviando mensagens com ameaças. Informa que no dia anterior ao contato ele apareceu na porta de sua casa. Afirma sentir medo e manifesta interesse em solicitar medida protetiva.",
+            "partes_contrarias": [
+              "ex marido"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Ex-marido apareceu na porta da casa da cliente",
+                "data": "2026-09-22",
+                "trecho": "ontem apareceu na porta de casa"
+              }
+            ],
+            "documentos_mencionados": [
+              "mensagens com ameaças"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo da cliente e do ex-marido, além de telefone para contato",
+              "Se já houve registro de boletim de ocorrência ou pedido anterior de medida protetiva",
+              "Se as mensagens de ameaça foram preservadas (prints, aparelho, conteúdo e datas)",
+              "Se há filhos em comum, convivência ou endereço compartilhado",
+              "Se houve agressão física, testemunhas ou histórico anterior de violência"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Ex-marido compareceu à residência da cliente em 2026-09-22 (ontem); ameaças por mensagem em curso, sem prazo processual formal identificado",
+            "fundamentacao": "A cliente relata ameaças atuais e contínuas por mensagem do ex-marido e comparecimento dele à porta de sua casa em 22/09/2026, um dia antes do contato. A rubrica classifica como crítica a situação de violência doméstica ou ameaça atual, com risco de dano irreversível em poucos dias. Há interesse expresso em medida protetiva de urgência (Lei 11.340/2006), cuja apreciação deve ocorrer em até 48h do pedido. Não há informação sobre boletim de ocorrência prévio, agressão física ou histórico de violência, o que impede descartar risco maior e reforça a classificação mais alta.",
+            "riscos": [
+              "Risco imediato à integridade física e à vida da cliente diante de aproximação recente do agressor",
+              "Escalada da violência enquanto não houver medida protetiva deferida e cientificada ao agressor",
+              "Perda ou deterioração da prova das ameaças caso as mensagens não sejam preservadas (prints, backup, perícia no aparelho)",
+              "Desconhecimento sobre existência de boletim de ocorrência prévio ou medida protetiva anterior descumprida, o que pode configurar crime autônomo e exigir providência penal imediata",
+              "Desconhecimento sobre agressão física, filhos em comum ou endereço compartilhado, fatores que podem agravar o risco e não podem ser descartados"
+            ],
+            "acao_recomendada": "Contatar a cliente por telefone ainda hoje para colher nome completo das partes, contato seguro e confirmar se já há boletim de ocorrência; orientar preservação imediata das mensagens e encaminhar ao plantão/DEAM para registro e pedido de medida protetiva de urgência em até 24h, acionando 190 em caso de nova aproximação."
+          },
+          "resposta": {
+            "assunto": "Novo contato - ameacas de ex-companheiro - urgencia priorizada",
+            "corpo": "Ola, recebemos sua mensagem. Entendemos que seu ex-marido continua enviando ameacas e que ontem apareceu na porta da sua casa, e que voce esta com medo. Seu caso foi priorizado e um advogado entrara em contato em breve. Se sentir risco imediato, ligue 190 ou 180 (Central da Mulher), a qualquer hora. Para adiantar, nos conte: 1) Seu nome completo, o nome dele e um telefone de contato; 2) Se ja registrou boletim de ocorrencia ou pediu medida protetiva antes; 3) Se guardou as mensagens; 4) Se ha filhos em comum ou endereco compartilhado. Equipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o seu nome completo, o nome completo dele e um telefone para contato?",
+              "Ja houve registro de boletim de ocorrencia ou pedido anterior de medida protetiva?",
+              "As mensagens com ameacas foram guardadas (prints ou no aparelho), com datas?",
+              "Ha filhos em comum, convivencia ou endereco compartilhado entre voces?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta é fiel à ficha, não promete resultado nem antecipa parecer, orienta corretamente para 190/180 diante do risco à integridade física e informa a priorização sem expor dados internos."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:15:15.333811-03:00",
+          "canal": "whatsapp",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "criminal",
+            "confianca": 0.9,
+            "justificativa": "Relata situação própria e concreta de ameaças do ex-marido e comparecimento à sua casa, com medo. Pede medida protetiva, instrumento da Lei Maria da Penha, com natureza penal/protetiva, embora haja interface com direito de família."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "A cliente relata que seu ex-marido continua enviando mensagens com ameaças. Informa que, no dia anterior ao contato, ele apareceu na porta de sua casa. Afirma sentir medo e manifesta interesse em solicitar medida protetiva.",
+            "partes_contrarias": [
+              "ex marido"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Ex-marido apareceu na porta da casa da cliente",
+                "data": "2026-09-22",
+                "trecho": "ontem apareceu na porta de casa"
+              }
+            ],
+            "documentos_mencionados": [
+              "mensagens com ameaças"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Nome completo da cliente e do ex-marido, além de telefone para contato",
+              "Se já houve registro de boletim de ocorrência ou pedido anterior de medida protetiva",
+              "Conteúdo e período das mensagens ameaçadoras e se estão preservadas (prints)",
+              "Se há filhos em comum, guarda ou visitação, e se residem no mesmo município",
+              "Histórico de agressões físicas ou outras ocorrências anteriores"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": "Ex-marido compareceu à residência da cliente em 2026-09-22 (ontem); ameaças por mensagem em curso",
+            "fundamentacao": "A cliente relata ameaças atuais e continuadas por mensagem do ex-marido e comparecimento dele à porta de sua casa em 22/09/2026, um dia antes do contato. A rubrica classifica como crítica a hipótese de violência doméstica ou ameaça atual, com risco de dano irreversível em poucos dias. O pedido de medida protetiva de urgência (Lei 11.340/2006) exige atuação imediata, inclusive com registro de ocorrência. Não há informação sobre boletim de ocorrência ou medida protetiva anterior, o que não afasta o risco e reforça o nível mais alto.",
+            "riscos": [
+              "Risco concreto à integridade física e à vida da cliente, com escalada da conduta do agressor que já se aproximou da residência",
+              "Não se sabe se há boletim de ocorrência registrado nem medida protetiva anterior/descumprida, o que pode agravar o quadro e não permite descartar risco imediato",
+              "Possível perda das provas: mensagens ameaçadoras podem ser apagadas pelo remetente ou não preservadas em prints/ata notarial",
+              "Desconhecimento sobre filhos em comum, visitação e proximidade de residências, o que pode gerar novos contatos forçados com o agressor",
+              "Ausência de telefone e nome completo impede contato rápido e protocolo imediato do pedido"
+            ],
+            "acao_recomendada": "Advogado criminalista/família deve ligar para a cliente ainda hoje (obter telefone imediatamente pelo canal de origem), orientar registro de BO com pedido de medida protetiva de urgência na delegacia (preferencialmente DEAM) nas próximas horas, instruir a preservação dos prints das mensagens e verificar plano de segurança imediato (local seguro, acionar 190 em caso de nova aproximação)."
+          },
+          "resposta": {
+            "assunto": "Novo contato - ameacas de ex-companheiro e interesse em medida protetiva",
+            "corpo": "Ola, obrigado por escrever para a Morandini Advocacia. Entendemos que seu ex-marido segue enviando mensagens com ameacas e que ontem ele apareceu na porta da sua casa, e que voce deseja pedir medida protetiva. Seu contato foi priorizado e um advogado entrara em contato em breve. Se houver risco imediato, ligue 190; para orientacao, 180. Para adiantar, poderia nos informar: 1) seu nome completo, o nome dele e um telefone; 2) se ja houve boletim de ocorrencia ou pedido de medida protetiva; 3) se as mensagens estao guardadas e de que periodo; 4) se ha filhos em comum. Equipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o seu nome completo, o nome completo do seu ex-marido e um telefone para contato?",
+              "Ja houve registro de boletim de ocorrencia ou pedido anterior de medida protetiva?",
+              "As mensagens com ameacas estao guardadas (prints) e de qual periodo sao?",
+              "Ha filhos em comum e voces moram na mesma cidade?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Os fatos conferem com a ficha, não há promessa de resultado, valores ou parecer jurídico, a priorização foi comunicada sem expor dados internos e as orientações de 190 e 180 estão corretas."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  }
+]
