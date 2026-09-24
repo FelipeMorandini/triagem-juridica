@@ -185,6 +185,8 @@ interrompida por falta de créditos na conta da API).
 
 O relatório completo, com todas as fichas geradas, está em
 [evals/relatorios/2026-09-23-avaliacao-completa.json](evals/relatorios/2026-09-23-avaliacao-completa.json).
+A reexecução dos 2 casos após a correção do guardrail está em
+[evals/relatorios/2026-09-23-reexecucao-guardrail.json](evals/relatorios/2026-09-23-reexecucao-guardrail.json).
 
 A primeira execução real também revelou dois problemas de design nos prompts, já corrigidos
 e documentados em [docs/arquitetura.md](docs/arquitetura.md#lições-da-execução-real).

@@ -1,0 +1,485 @@
+[
+  {
+    "caso": "consumidor_negativacao",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:16:42.271348-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata caso próprio e concreto: negativação no Serasa por dívida de plano já cancelado, com protocolo de cancelamento. Cobrança indevida por operadora de telefonia é relação de consumo, com dano decorrente da recusa de financiamento."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente informa que teve seu nome negativado no Serasa pela operadora Conecta Telecom em razão de dívida de R$ 890 referente a plano que afirma ter cancelado em março, dispondo do protocolo de cancelamento. Relata que teve pedido de financiamento de veículo negado na semana anterior ao contato, atribuindo a recusa à negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano pelo cliente",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento e número do protocolo",
+              "Se o cliente possui comprovante da negativação (extrato do Serasa) e a data de inclusão",
+              "Se houve cobranças ou tentativa de contato com a operadora após o cancelamento",
+              "Comprovante da negativa do financiamento do veículo",
+              "Se existem outras negativações em nome do cliente"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": "Negativa de financiamento na semana de 14-20/09/2026; negativação ativa no Serasa desde data não informada",
+            "fundamentacao": "O cliente está com negativação ativa no Serasa por dívida de R$ 890 relativa a plano que afirma ter cancelado em março, com protocolo em mãos. O prejuízo já se concretizou: financiamento de veículo negado na semana anterior ao contato, caracterizando negativação indevida com prejuízo em curso, sinal expresso do nível alta na rubrica. Não há audiência, citação, liminar de saúde ou ordem judicial iminente que justifique nível crítico. A restrição segue produzindo efeitos a cada dia, o que afasta o enquadramento em media.",
+            "riscos": [
+              "Manutenção da negativação continua bloqueando crédito e pode inviabilizar definitivamente o financiamento do veículo pretendido",
+              "Não se sabe a data de inclusão da negativação, o que impede aferir há quanto tempo o prejuízo corre e se há risco de prescrição do pedido de dano moral (3 anos)",
+              "Possível cobrança extrajudicial ou ajuizamento de ação pela Conecta Telecom, ainda desconhecido, que poderia gerar prazo de defesa",
+              "Existência de outras negativações em nome do cliente pode afastar o dano moral (Súmula 385 STJ) e precisa ser verificada antes de qualquer medida",
+              "Risco de perda do protocolo de cancelamento ou de o registro ser descartado pela operadora com o tempo"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 48h para colher extrato completo do Serasa/SPC com data de inclusão, o número e comprovante do protocolo de cancelamento e a negativa formal do financiamento, e avaliar ação declaratória com pedido de tutela de urgência para baixa da negativação."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a negativação no Serasa",
+            "corpo": "Olá, bom dia.\n\nAgradecemos o seu contato e a confiança em nos procurar.\n\nEntendemos, pelo que você relatou, que seu nome foi incluído no Serasa pela Conecta Telecom por uma dívida de um plano que você afirma ter cancelado em março, e que um pedido de financiamento de veículo foi recusado na semana passada.\n\nSeu relato já foi encaminhado para análise, e um advogado da área entrará em contato em breve para agendar uma conversa e examinar a situação com você.\n\nPara que essa análise seja mais completa, pedimos que, se possível, responda a este e-mail com as seguintes informações:\n\n1. Qual a data exata do cancelamento do plano e o número do protocolo?\n2. Você tem o extrato do Serasa indicando a data de inclusão do débito?\n3. Após o cancelamento, houve cobranças ou algum contato com a operadora? Se sim, há registro?\n4. Existem outras anotações em seu nome além dessa?\n\nPor segurança, não envie senhas, dados bancários ou números de cartão por este canal.\n\nAtenciosamente,\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo?",
+              "Você tem o extrato do Serasa indicando a data de inclusão do débito?",
+              "Após o cancelamento, houve cobranças ou algum contato com a operadora? Se sim, há registro?",
+              "Existem outras anotações em seu nome além dessa?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. O e-mail reproduz fielmente os fatos da ficha, não promete resultado, não menciona valores nem antecipa parecer, e solicita apenas informações legítimas, com alerta adequado sobre dados sensíveis."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:17:32.226624-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata caso próprio e concreto: negativação indevida no Serasa por operadora de telefonia referente a plano já cancelado, com protocolo de cancelamento. Menciona dano concreto (financiamento negado). Relação de consumo com fornecedor de serviço."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata ter tido seu nome negativado no Serasa pela operadora Conecta Telecom em razão de uma dívida de R$ 890 referente a um plano que afirma ter cancelado em março, informando possuir o protocolo do cancelamento. Na semana anterior ao contato, teve negado um pedido de financiamento de carro, atribuindo a recusa à negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano junto à operadora",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento e número do protocolo",
+              "Data em que a negativação foi incluída no Serasa e se houve notificação prévia",
+              "Comprovante da negativação (extrato do Serasa) e da recusa do financiamento",
+              "Se houve tentativa de contato com a Conecta Telecom após a negativação e resposta obtida",
+              "Dados de contato do cliente (telefone e e-mail) e se possui outras negativações"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": null,
+            "fundamentacao": "O cliente está com o nome negativado no Serasa pela Conecta Telecom por dívida de R$ 890 relativa a plano que afirma ter cancelado em março, com protocolo em mãos. A negativação já produziu prejuízo concreto e atual: recusa de financiamento de veículo na semana anterior ao contato (por volta de 2026-09-14). A rubrica classifica como 'alta' a negativação indevida com prejuízo em curso. Não há audiência, citação ou ordem judicial iminente que justifique nível crítico, mas o dano patrimonial e ao crédito segue se acumulando a cada dia.",
+            "riscos": [
+              "Manutenção da negativação continua impedindo acesso a crédito e pode inviabilizar o financiamento pretendido",
+              "Não se sabe a data exata da inclusão no Serasa; se houver cobrança judicial ou execução já ajuizada, pode existir prazo de citação correndo sem conhecimento do escritório",
+              "Perda ou expiração do protocolo de cancelamento e de registros da operadora, essenciais para provar a indevida cobrança",
+              "Possibilidade de o cliente ter outras negativações, o que afetaria a tese de dano moral (Súmula 385 do STJ) e a estratégia do caso",
+              "Ausência de telefone e e-mail do cliente na ficha dificulta contato rápido para colher documentos"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 24 horas para obter telefone/e-mail, o número e a data do protocolo de cancelamento, extrato atualizado do Serasa e comprovante da recusa do financiamento, verificando também se existe ação judicial ou cobrança com prazo em curso, a fim de preparar pedido de tutela de urgência para baixa da negativação."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a negativação em seu nome - Morandini Advocacia",
+            "corpo": "Olá, bom dia.\n\nAgradecemos o seu contato e confirmamos o recebimento do seu relato.\n\nEntendemos, em resumo, que seu nome foi negativado no Serasa pela Conecta Telecom por uma dívida referente a um plano que você afirma ter cancelado em março, e que isso teria levado à recusa de um financiamento de carro na semana passada.\n\nSeu caso foi encaminhado com prioridade para um advogado da área, que fará a análise e entrará em contato para agendar uma conversa e esclarecer os próximos passos.\n\nPara que essa análise seja mais completa, seria útil que você nos informasse:\n\n1. A data exata do cancelamento do plano e o número do protocolo.\n2. Desde quando a negativação consta no Serasa e se você recebeu alguma notificação antes da inclusão.\n3. Se procurou a Conecta Telecom após a negativação e qual foi a resposta.\n4. Um telefone e um e-mail para contato, e se existem outras anotações em seu nome.\n\nPermanecemos à disposição.\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo?",
+              "Desde quando a negativação consta no Serasa e houve notificação prévia sobre a inclusão?",
+              "Você chegou a contatar a Conecta Telecom após a negativação? Qual foi a resposta?",
+              "Quais seus dados de contato (telefone e e-mail) e existem outras anotações em seu nome?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A mensagem não promete resultado, não menciona honorários nem antecipa parecer jurídico, os fatos conferem com a ficha e a priorização foi comunicada conforme a R7."
+          },
+          "tentativas_resposta": 2,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": true,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:18:17.173201-03:00",
+          "canal": "email",
+          "status": "pronta_para_envio",
+          "classificacao": {
+            "tipo_contato": "novo_caso",
+            "area": "consumidor",
+            "confianca": 0.95,
+            "justificativa": "Relata caso próprio e concreto: negativação no Serasa por dívida de plano cancelado, com protocolo de cancelamento. Envolve relação de consumo com operadora de telefonia e dano decorrente da negativação indevida (financiamento negado)."
+          },
+          "extracao": {
+            "nome_cliente": null,
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente relata ter tido seu nome negativado no Serasa pela operadora Conecta Telecom em razão de dívida de R$ 890 referente a um plano que afirma ter cancelado em março. Informa possuir o protocolo do cancelamento. Na semana anterior ao contato, teve negado um financiamento de veículo, atribuindo a recusa à negativação.",
+            "partes_contrarias": [
+              "Conecta Telecom"
+            ],
+            "datas_relevantes": [
+              {
+                "descricao": "Cancelamento do plano junto à operadora",
+                "data": null,
+                "trecho": "um plano que cancelei em março"
+              },
+              {
+                "descricao": "Tentativa de financiamento de carro negada",
+                "data": null,
+                "trecho": "Tentei financiar um carro semana passada e foi negado por isso"
+              }
+            ],
+            "documentos_mencionados": [
+              "protocolo de cancelamento do plano"
+            ],
+            "valores_mencionados": [
+              "R$ 890 (valor da dívida negativada)"
+            ],
+            "informacoes_faltantes": [
+              "Data exata do cancelamento do plano e número do protocolo",
+              "Data em que a negativação foi inscrita no Serasa e se houve notificação prévia",
+              "Se o cliente possui comprovante da recusa do financiamento e da consulta ao Serasa",
+              "Se houve tentativa de contato ou reclamação administrativa junto à operadora ou a órgãos de defesa do consumidor",
+              "Dados de contato do cliente (telefone e e-mail)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "alta",
+            "prazo_identificado": null,
+            "fundamentacao": "A rubrica classifica como alta a negativação indevida com prejuízo em curso, que é exatamente o caso: nome inscrito no Serasa pela Conecta Telecom por dívida de R$ 890 relativa a plano que o cliente afirma ter cancelado em março, com protocolo em mãos. O dano já se materializou na semana anterior ao contato, com a recusa do financiamento do veículo, e a restrição segue ativa, ampliando o prejuízo a cada dia. Não há audiência, intimação ou ordem judicial em curso que justifique nível crítico, mas também não se trata de problema sem consequência atual. Faltam a data exata da inscrição e a confirmação do cancelamento, o que não afasta o risco em andamento.",
+            "riscos": [
+              "Restrição creditícia ativa: perda da oportunidade de financiamento e de novas contratações de crédito enquanto a inscrição permanecer",
+              "Não se sabe a data da inscrição no Serasa nem se houve notificação prévia do órgão de proteção ao crédito (art. 43, §2º, CDC), o que impede avaliar a extensão da irregularidade e o tempo de exposição",
+              "Risco de perda de prova: protocolo de cancelamento, gravações de atendimento e comprovante da recusa do financiamento podem ser descartados pelas empresas com o tempo",
+              "Possibilidade de cobrança evoluir para execução ou renovação da dívida se nada for feito",
+              "Sem os dados de contato do cliente (telefone e e-mail) na ficha, há risco de o caso estacionar na fila"
+            ],
+            "acao_recomendada": "Contatar o cliente em até 48h para obter telefone/e-mail, número e data do protocolo de cancelamento, extrato atualizado do Serasa e comprovante da recusa do financiamento, e avaliar ação declaratória de inexistência de débito com pedido liminar de baixa da negativação e indenização por danos morais."
+          },
+          "resposta": {
+            "assunto": "Recebemos seu contato sobre a negativação em nome da Conecta Telecom",
+            "corpo": "Olá, bom dia.\n\nAgradecemos o seu contato com a Morandini Advocacia.\n\nEntendemos que seu nome foi negativado no Serasa pela Conecta Telecom por uma dívida referente a um plano que você afirma ter cancelado em março, e que, na semana passada, um financiamento de veículo foi negado.\n\nSeu relato já foi encaminhado para análise de um advogado da área, que entrará em contato para agendar uma conversa e avaliar a situação com calma.\n\nPara que essa análise seja mais completa, pedimos que, se possível, nos responda:\n\n1. Qual a data exata do cancelamento do plano e o número do protocolo?\n2. Sabe em que data a negativação foi inscrita no Serasa e se recebeu alguma notificação prévia?\n3. Possui o comprovante da recusa do financiamento ou o extrato da consulta ao Serasa?\n4. Chegou a registrar reclamação na operadora ou em algum órgão de defesa do consumidor?\n\nSe preferir, informe também um telefone para contato.\n\nFicamos à disposição.\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual a data exata do cancelamento do plano e o número do protocolo?",
+              "Sabe em que data a negativação foi inscrita no Serasa e se recebeu alguma notificação prévia?",
+              "Possui o comprovante da recusa do financiamento ou o extrato da consulta ao Serasa?",
+              "Chegou a registrar reclamação na operadora ou em algum órgão de defesa do consumidor?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. Não há promessa de resultado, valores, parecer conclusivo ou vazamento de dados internos; os fatos conferem com a ficha e as perguntas endereçam as informações faltantes."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "caso": "cliente_existente",
+    "execucoes": [
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:18:52.574288-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento, pedindo orientação sobre carta do fórum. O número indica processo na Justiça Estadual de SP (segmento 8), sem indicação de matéria específica, logo cível."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, que se identifica como Roberto e cliente do Dr. Paulo, informa ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Pergunta se precisa adotar alguma providência. Não descreve o conteúdo da carta nem o objeto do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida e se há prazo indicado",
+              "Data em que a carta foi recebida",
+              "Nome completo do cliente e dados de contato",
+              "Objeto do processo e posição do cliente (autor ou réu)",
+              "Se o cliente já possui advogado constituído nos autos"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": null,
+            "fundamentacao": "Roberto informa ter recebido carta do fórum no processo nº 1004567-12.2024.8.26.0224, mas não descreve o conteúdo nem a data de recebimento. Correspondência judicial dirigida à parte normalmente veicula citação, intimação ou mandado, hipóteses em que o prazo já está correndo desde a juntada/recebimento. A rubrica classifica como crítica a 'citação ou intimação recebida com prazo correndo', e a ausência de informação impede descartar essa hipótese. Aplicando a regra da dúvida, mantém-se o nível mais alto até a triagem documental.",
+            "riscos": [
+              "Não se sabe o conteúdo da carta: pode ser citação, intimação de audiência, mandado ou cumprimento de sentença com prazo já em curso",
+              "Data de recebimento desconhecida — o prazo pode estar vencendo ou já vencido",
+              "Não se sabe se o cliente é autor ou réu nem se há advogado constituído nos autos; se não houver, o risco de revelia é concreto",
+              "Perda de prazo pode gerar revelia, preclusão ou execução imediata, com dano irreversível"
+            ],
+            "acao_recomendada": "Ligar para Roberto hoje (obter telefone/e-mail com o Dr. Paulo, que já o atende), pedir foto da carta e do envelope com a data de recebimento, e em paralelo consultar imediatamente o andamento do processo 1004567-12.2024.8.26.0224 no e-SAJ/TJSP para confirmar o ato e o prazo em curso."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre a carta do fórum (processo 1004567-12.2024.8.26.0224)",
+            "corpo": "Olá, Roberto,\n\nRecebemos sua mensagem informando que chegou uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224 e que você gostaria de saber se precisa tomar alguma providência.\n\nComo cartas judiciais podem conter prazos, seu contato foi priorizado: um advogado da área vai analisar a situação e entrar em contato para agendar uma conversa e orientá-lo sobre os próximos passos.\n\nPara agilizar essa análise, pedimos que nos envie, quando puder:\n\n1. O que está escrito na carta, principalmente se há alguma data ou prazo indicado.\n2. Em que dia você recebeu a carta.\n3. Seu nome completo e um telefone para contato.\n4. Se sabe sobre o que é o processo e se você figura como autor ou réu.\n\nSe preferir, pode responder este e-mail com uma foto ou a transcrição do texto da carta. Por este canal, não envie senhas, dados bancários ou documentos de identidade.\n\nAssim que tivermos esses dados, retornaremos o contato.\n\nAtenciosamente,\n\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "O que está escrito na carta do fórum? Há alguma data ou prazo indicado?",
+              "Em que dia você recebeu a carta?",
+              "Qual o seu nome completo e um telefone para contato?",
+              "Você sabe sobre o que é o processo e se figura nele como autor ou réu?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta não promete resultado, não menciona valores nem antecipa parecer, confere com a ficha, trata a urgência informando priorização e contato de advogado, e o pedido de documentos se limita à carta judicial, com alerta adequado sobre dados sensíveis."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": true,
+          "conformidade": true
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:19:21.190245-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento. Pergunta sobre providência a tomar após intimação do fórum. Numeração 8.26 indica processo cível estadual em São Paulo."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, identificado como Roberto e que se apresenta como cliente do Dr. Paulo, informa ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Ele pergunta se precisa adotar alguma providência. Não foram informados o conteúdo da carta nem detalhes do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida e data de recebimento/juntada",
+              "Objeto do processo e posição do cliente (autor ou réu)",
+              "Se há prazo indicado na comunicação e qual",
+              "Se o cliente já possui advogado constituído nos autos (Dr. Paulo)",
+              "Dados completos de contato do cliente (telefone, e-mail, nome completo)"
+            ]
+          },
+          "urgencia": {
+            "nivel": "critica",
+            "prazo_identificado": null,
+            "fundamentacao": "Roberto informa ter recebido carta do fórum no processo nº 1004567-12.2024.8.26.0224, sem indicar o conteúdo nem a data de recebimento. Comunicação judicial recebida pelo cliente é sinal de citação ou intimação com prazo possivelmente já em curso, hipótese expressamente listada na rubrica como crítica. Como não há informação que permita descartar prazo em curso (conteúdo, data, posição processual), aplica-se a regra da dúvida e adota-se o nível mais alto. O prazo concreto não pode ser calculado com os fatos disponíveis.",
+            "riscos": [
+              "Carta pode ser citação ou intimação com prazo processual já correndo, com risco de revelia ou preclusão",
+              "Data de recebimento da carta não informada, impedindo calcular o prazo restante",
+              "Objeto do processo e posição do cliente (autor ou réu) desconhecidos",
+              "Não se sabe se o Dr. Paulo está constituído nos autos; se não estiver, o cliente pode estar sem defesa técnica",
+              "Ausência de telefone e e-mail na ficha dificulta contato imediato"
+            ],
+            "acao_recomendada": "Contatar Roberto ainda hoje (obter telefone/e-mail) para pedir foto da carta e do envelope com a data de recebimento e, em paralelo, consultar o andamento do processo 1004567-12.2024.8.26.0224 no e-SAJ/TJSP e alinhar com o Dr. Paulo se há prazo em curso."
+          },
+          "resposta": {
+            "assunto": "Recebemos sua mensagem sobre a carta do fórum - processo 1004567-12.2024.8.26.0224",
+            "corpo": "Olá, Roberto,\n\nRecebemos sua mensagem informando que chegou uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224 e que você gostaria de saber se precisa tomar alguma providência.\n\nSeu contato foi encaminhado com prioridade, e um advogado responsável pela área analisará a situação e entrará em contato em breve para conversar com você sobre a comunicação recebida.\n\nPara que essa análise seja feita com segurança, pedimos que, quando puder, responda a este e-mail com as informações abaixo:\n\n- Qual o conteúdo da carta e em que data você a recebeu?\n- A comunicação menciona algum prazo? Se sim, qual?\n- Você sabe informar sobre o que trata o processo e se figura como autor ou réu?\n- O Dr. Paulo já atua nesse processo em seu nome ou o acompanhamento era de outro assunto?\n\nSe preferir, envie também um telefone com DDD para que o contato seja mais rápido.\n\nFicamos à disposição.\n\nAtenciosamente,\nEquipe Morandini Advocacia",
+            "perguntas_ao_cliente": [
+              "Qual o conteúdo da carta recebida e em que data ela chegou?",
+              "A comunicação indica algum prazo? Se sim, qual?",
+              "Você sabe qual é o objeto do processo e se figura como autor ou réu?",
+              "O Dr. Paulo já atua nesse processo em seu nome ou o acompanhamento era de outro assunto?"
+            ]
+          },
+          "revisao": {
+            "aprovado": true,
+            "violacoes": [],
+            "parecer": "Aprovada. A resposta não promete resultado, não menciona valores nem antecipa parecer, reflete fielmente a ficha e trata a prioridade do caso de forma adequada, solicitando apenas informações legítimas para a análise."
+          },
+          "tentativas_resposta": 1,
+          "alertas": [
+            "Urgência CRÍTICA: advogado deve revisar e contatar o cliente hoje."
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0",
+            "resposta": "1.0.0",
+            "revisao": "2.0.0"
+          }
+        }
+      },
+      {
+        "notas": {
+          "tipo": true,
+          "area": null,
+          "urgencia": false,
+          "conformidade": null
+        },
+        "ficha": {
+          "recebido_em": "2026-09-23T21:19:49.947500-03:00",
+          "canal": "email",
+          "status": "revisao_humana",
+          "classificacao": {
+            "tipo_contato": "cliente_existente",
+            "area": "civel",
+            "confianca": 0.92,
+            "justificativa": "Identifica-se como cliente do Dr. Paulo e cita número de processo em andamento, pedindo orientação sobre carta do fórum. Numeração do segmento 8 (TJSP) indica processo cível estadual."
+          },
+          "extracao": {
+            "nome_cliente": "Roberto",
+            "telefone": null,
+            "email": null,
+            "resumo_fatos": "O cliente, que se identifica como Roberto e cliente do Dr. Paulo, informa ter recebido uma carta do fórum referente ao processo nº 1004567-12.2024.8.26.0224. Ele pergunta se precisa adotar alguma providência. Não foram informados o conteúdo da carta nem detalhes do processo.",
+            "partes_contrarias": [],
+            "datas_relevantes": [],
+            "documentos_mencionados": [
+              "carta do fórum referente ao processo 1004567-12.2024.8.26.0224"
+            ],
+            "valores_mencionados": [],
+            "informacoes_faltantes": [
+              "Conteúdo da carta recebida e eventual prazo nela indicado",
+              "Data em que a carta foi recebida",
+              "Objeto do processo e posição do cliente (autor ou réu)",
+              "Se o cliente já possui advogado constituído nos autos",
+              "Dados de contato do cliente (telefone e e-mail)"
+            ]
+          },
+          "urgencia": null,
+          "resposta": null,
+          "revisao": null,
+          "tentativas_resposta": 0,
+          "alertas": [
+            "Falha na etapa de IA, triagem manual necessária: urgencia: API retornou 400: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfMJjzmUzWBVw3MDELAZT'}"
+          ],
+          "versoes_prompts": {
+            "classificacao": "2.0.0",
+            "extracao": "1.0.0",
+            "urgencia": "2.0.0"
+          }
+        }
+      }
+    ]
+  }
+]
